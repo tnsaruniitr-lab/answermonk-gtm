@@ -31,6 +31,14 @@ Built from: extensive Ahrefs research (11 turns of competitive + keyword + backl
 | 08 | `08-weekly-execution-90day.md` | Week-by-week execution plan for Weeks 1-12 with daily task breakdown |
 | 09 | `09-blog-rules.md` | Exhaustive ruleset for the blog writer + auditor (80+ rules) |
 
+### `/tools/` — Component-level tool specs
+
+| File | Purpose |
+|---|---|
+| `tools/01-rank-checker-spec.md` | **Tool 1 (ship-ready)** — AI Visibility Rank Checker with 15 components, 3 auth flags, AMQ Score, email gate, full engineering + cost + launch spec |
+| `tools/02-aeo-tech-audit-spec.md` | Tool 2 (planned) — AEO Technical Audit (AI crawler access, schema, SSR, llms.txt) — spec to be added |
+| `tools/03-blog-auditor-spec.md` | Tool 3 (Month 4-5) — Blog Content + AEO Auditor — spec to be added |
+
 ---
 
 ## Quick start — what to do this week
