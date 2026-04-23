@@ -3,7 +3,7 @@
 **For:** Sundeep, Valeo Health (feelvaleo.com)
 **Date:** 2026-04-23
 **Duration:** 16 weeks (4 months), starting week of 2026-04-28
-**Status:** Scope draft for discussion — pricing, resourcing, and final targets to be agreed in kickoff call
+**Status:** Scope draft for discussion — resourcing and final targets to be agreed in kickoff call
 **Basis:** SEO + AEO + GEO analysis of feelvaleo.com, 2026-04-14
 
 ---
@@ -154,7 +154,7 @@ Sundeep (or delegated approver) is the single point of approval for: final conte
 Cadence: Monday analysis → Tuesday-Thursday execution → Friday measurement + report.
 
 ### Weeks 1-2 — Baseline + Pre-Build Technical Audit + Foundation Scope
-- **W1:** Kickoff. Run baseline measurement (50 queries × 4 engines). Identify medical director for Person schema. Founder Live Dashboard wireframe + data-source inventory (WS4 begins). **Pricing + target ranges finalized after baseline lands.**
+- **W1:** Kickoff. Run baseline measurement (50 queries × 4 engines). Identify medical director for Person schema. Founder Live Dashboard wireframe + data-source inventory (WS4 begins). **Target ranges finalized after baseline lands.**
 - **W1-W2:** **Pre-build technical audit & alignment check** — current HTML vs target plan, Schema.org validation against current spec, Google Search Central guidelines alignment, bot crawl visibility differentials (Googlebot / GPTBot / ClaudeBot / PerplexityBot / Google-Extended), SSR/CSR rendering tests across priority URLs, llms.txt review, extractability scoring on top 20+ URLs. Deliverable: **Technical Alignment Report** to Ritwik + Sundeep before content commit.
 - **W2:** Lock content spec for new root page based on audit findings. Build root page in staging. Content team drafts ~2,500 words with medical team review. Schema @graph drafted to audit-validated spec. Sieve brain integration scoped (rules to continuously check Valeo against).
 
@@ -366,17 +366,9 @@ Notes:
 
 ---
 
-## Pricing
+## Scope Boundaries
 
-Pricing is intentionally deferred to the kickoff discussion. Three structures are possible:
-
-- **Phased fee** — Foundation / Content+Authority / Measurement+Handover, each with a decision gate before the next unlocks
-- **16-week retainer** — single monthly fee × 4 months, all deliverables included
-- **Milestone-based** — payment tied to specific deliverables
-
-Final structure + figures are a conversation, not a quote in this document. **This is a scope draft, not a priced proposal.**
-
-**Not included under any structure:**
+Not included in this engagement:
 - Engineering execution (Valeo's dev team)
 - Content writing (Valeo's content team)
 - Medical / legal reviewer time (Valeo's team)
@@ -439,7 +431,7 @@ Outcome scenarios:
 ## Next Steps
 
 1. Sundeep reviews this scope draft
-2. Discussion call: resource commitment confirmation, pricing structure selection, question resolution
+2. Discussion call: resource commitment confirmation, question resolution
 3. Kickoff week of April 28 (if aligned)
 4. Week 1 Task 1: measure baseline (50 queries × 4 engines) → target ranges locked
 5. First decision gate: Week 5
