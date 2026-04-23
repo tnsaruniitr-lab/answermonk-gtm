@@ -185,79 +185,102 @@ If capacity is lower than the table, scope reduces proportionally. This is a mea
 
 ---
 
-## Effort Estimates
+## Advisor Effort Estimates
 
-Estimates below cover total human hours per workstream, split by role. A **30% buffer** is applied to each base estimate to account for review cycles, revision loops, regulatory-review latency, re-crawl diagnostics, and scope ambiguities typical in healthcare content delivery. All figures are engagement-wide (12 weeks), not per week.
+Below are **advisor (Arun) hours only** — the contracted scope. Valeo-side hours are separate (see Resource Commitments above). A **30% buffer** is applied per workstream to cover review cycles, regulatory-review latency, re-crawl diagnostics, prompt tuning iterations, and scope ambiguities typical in healthcare delivery.
+
+The plan includes material **analysis and automation build-out** — not just strategy. The blog writer automation and competitive intel infrastructure are significant engineering efforts in their own right and are called out explicitly below.
 
 ### Workstream 1 — Foundation Fix (Weeks 1-4)
 
-| Activity | Role | Base hrs |
-|---|---|---|
-| Root page content spec + draft (~2,500 words) | Content | 15 |
-| Schema @graph design + port from /en-ae/dubai | Advisor + Eng | 10 |
-| Technical fixes (HSTS, Cache-Control, dateModified) | Engineering | 6 |
-| Staging build + cross-device QA | Engineering | 12 |
-| Production deploy + indexing requests (GSC, Bing) | Engineering | 4 |
-| Person schema (founder + medical director, DHA credentials) | Eng + Medical | 8 |
-| AggregateRating ↔ Trustpilot integration | Engineering | 10 |
-| Medical review of root + credential pages | Medical | 6 |
-| Advisor oversight + iteration | Advisor | 12 |
-| **Base subtotal** | | **83** |
-| **+ 30% buffer** | | **25** |
-| **Buffered total** | | **~108 hrs** |
+| Activity | Base hrs |
+|---|---|
+| Root page content spec + structure (2,500 words, medical-reviewed brief) | 10 |
+| Schema @graph design (port + enhance from /en-ae/dubai) | 8 |
+| Technical fix spec + engineering handoff (HSTS, Cache-Control, dateModified) | 4 |
+| Staging review + pre-deploy QA across AI crawler user agents | 6 |
+| Post-deploy AI crawl validation + re-index tracking | 4 |
+| Person schema spec (founder + medical director, DHA credential display) | 4 |
+| AggregateRating ↔ Trustpilot integration spec + TOS compliance review | 5 |
+| Strategy calls + iteration | 6 |
+| **Base subtotal** | **47** |
+| **+ 30% buffer** | **14** |
+| **Buffered total** | **~61 hrs** |
 
-### Workstream 2 — Content + E-E-A-T (Weeks 4-10)
+### Workstream 2 — Content + E-E-A-T + Brand-Aware Blog Writer Automation (Weeks 4-10)
 
-| Activity | Role | Base hrs |
-|---|---|---|
-| Schema upgrades on top 10 city/service pages | Engineering | 18 |
-| 50 FAQ pairs (research, draft, SERP-sourced) | Content | 40 |
-| FAQ medical review | Medical | 12 |
-| FAQPage schema deployment | Engineering | 8 |
-| Top 5 city pages upgraded (competitive depth) | Content | 50 |
-| 2 comparison posts (research + draft) | Content | 16 |
-| Legal review of comparison posts | Legal | 4 |
-| 5-8 blog posts (medical-reviewed, primary sources) | Content | 40 |
-| Blog medical review | Medical | 10 |
-| Advisor content direction + QA | Advisor | 20 |
-| **Base subtotal** | | **218** |
-| **+ 30% buffer** | | **65** |
-| **Buffered total** | | **~283 hrs** |
+| Activity | Base hrs |
+|---|---|
+| **Content strategy + briefs** | |
+| FAQ sourcing methodology + PAA harvesting approach | 6 |
+| 50 FAQ briefs (groups of 5-10) + editorial QA | 16 |
+| Top-5 city-page content briefs + competitive-depth framework | 20 |
+| 2 comparison post frameworks + legal gate spec | 8 |
+| 5-8 blog post briefs + editorial standards | 15 |
+| E-E-A-T audit (medical authority surfacing across site) | 8 |
+| Schema consistency QA across 10+ pages | 10 |
+| Content iteration + medical-review coordination | 10 |
+| **Brand-aware blog writer automation (custom build)** | |
+| Brand voice + guardrail spec (ingest Valeo tone, YMYL compliance rules, DHA constraints) | 10 |
+| Pipeline build: intake → draft → medical-review handoff → schema injection → publish-ready export | 20 |
+| Prompt library + few-shot examples for healthcare YMYL (per content type: FAQ, blog, city page) | 10 |
+| Testing + tuning on 3-5 sample pieces against medical reviewer feedback | 10 |
+| Medical-review integration flow (diff view, approval tracking) | 4 |
+| Handover docs + content-team training | 4 |
+| **Base subtotal** | **151** |
+| **+ 30% buffer** | **45** |
+| **Buffered total** | **~196 hrs** |
 
-### Workstream 3 — Measurement + Competitive Intel + Paid Efficiency Audit (Ongoing, 12 weeks)
+### Workstream 3 — Measurement Infrastructure + Competitive Intel + Paid Audit (Weeks 1-12)
 
-| Activity | Role | Base hrs |
-|---|---|---|
-| Dashboard build (Airtable / Notion) | Advisor | 12 |
-| Baseline measurement setup (50 queries × 4 engines) | Advisor | 8 |
-| Weekly AI citation measurement ritual (3 hrs × 12) | Advisor | 36 |
-| Weekly competitor SERP + AI Overview tracking (2 hrs × 12) | Advisor | 24 |
-| Alert infrastructure (email / Telegram) | Advisor | 8 |
-| Competitive gap deep-dives (3 iterations) | Advisor | 15 |
-| AI-assisted keyword discovery | Advisor | 10 |
-| Paid ads audit reports (2 × 10 hrs) | Advisor | 20 |
-| Week 12 measurement audit + ROI write-up | Advisor | 15 |
-| Cross-workstream strategy alignment | Advisor | 10 |
-| **Base subtotal** | | **158** |
-| **+ 30% buffer** | | **47** |
-| **Buffered total** | | **~205 hrs** |
+Split into a one-time **Build phase** (Weeks 1-3) and **Run phase** (Weeks 2-12).
 
-### Engagement totals
+#### Build phase (one-time)
 
-| Role | Base hrs | +30% buffer | Buffered total |
+| Activity | Base hrs |
+|---|---|
+| Baseline measurement harness (50 queries × 4 engines × scripted runs) | 8 |
+| Competitive intel automation (SERP + AI Overview scrapers, 4 competitors) | 14 |
+| AI citation tracking pipeline (per-engine parsers, attribution logic) | 12 |
+| Competitor comparison layer + normalization + scoring | 10 |
+| Telegram alert infrastructure (bot, threshold rules, routing) | 10 |
+| Dashboard build (Airtable / Notion, views, rollups, data sync) | 12 |
+| **Build subtotal** | **66** |
+
+#### Run phase (ongoing, 12 weeks)
+
+| Activity | Base hrs |
+|---|---|
+| Weekly AI citation measurement ritual (2.5 hrs × 12) | 30 |
+| Weekly competitor SERP + AI Overview tracking (2 hrs × 12) | 24 |
+| Competitive gap deep-dive analyses (3 iterations × 5 hrs) | 15 |
+| AI-assisted keyword discovery (ChatGPT/Claude/Perplexity probing) | 10 |
+| Paid efficiency audit reports (2 × 10 hrs, full review of Google Ads + Meta) | 20 |
+| Week 12 measurement audit + ROI write-up + Q2 scope | 15 |
+| Cross-workstream strategy alignment + Friday reports | 10 |
+| **Run subtotal** | **124** |
+
+| Rollup | Hrs |
+|---|---|
+| Build + Run base | 190 |
+| + 30% buffer | 57 |
+| **Buffered total** | **~247 hrs** |
+
+### Advisor engagement total
+
+| Workstream | Base | +30% buffer | Buffered total |
 |---|---|---|---|
-| Advisor (Arun) | ~180 | ~54 | **~234** |
-| Engineering (Valeo) | ~66 | ~20 | **~86** |
-| Content (Valeo) | ~161 | ~48 | **~209** |
-| Medical reviewer (Valeo) | ~28 | ~8 | **~36** |
-| Legal reviewer (Valeo) | ~4 | ~1 | **~5** |
-| Founder (Sundeep) | ~30 | ~9 | **~39** |
-| **All roles** | **~469** | **~140** | **~609 hrs** |
+| WS1 — Foundation Fix | 47 | 14 | **~61** |
+| WS2 — Content + Blog Writer Automation | 151 | 45 | **~196** |
+| WS3 — Measurement Infra + Intel + Paid Audit | 190 | 57 | **~247** |
+| **Advisor total (Arun)** | **388** | **116** | **~504 hrs** |
+
+Implied weekly load: **~42 hrs/week** across 12 weeks. This is a near-full-time commitment. If the scope needs to run alongside other advisor commitments, the blog-writer automation and/or top-5 city page upgrades are the natural deferral candidates — those two items together represent ~60 hrs of buffered scope.
 
 Notes:
-- Advisor hours are the contracted scope; Valeo-side hours map to the Resource Commitments table above.
-- Buffer is drawn down only as consumed; unused buffer rolls to Phase 2 scope discussions.
+- Buffer is drawn down only as consumed; unused buffer rolls into Phase 2 scope discussions.
 - If Week 1 baseline reveals different starting conditions than the audit implies, estimates are re-baselined before Week 3.
+- Automation build hours (blog writer + intel infra) are front-loaded in Weeks 1-4 — the heaviest advisor weeks are Weeks 1-4, tapering in Weeks 9-12 to run ops + audit.
 
 ---
 
