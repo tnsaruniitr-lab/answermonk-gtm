@@ -2,7 +2,7 @@
 
 **For:** Sundeep, Valeo Health (feelvaleo.com)
 **Date:** 2026-04-23
-**Duration:** 16 weeks (4 months), starting week of 2026-04-28
+**Duration:** 16 weeks (4 months), starting 2026-05-02 onward
 **Status:** Scope draft for discussion — resourcing and final targets to be agreed in kickoff call
 **Basis:** SEO + AEO + GEO analysis of feelvaleo.com, 2026-04-14
 
@@ -432,7 +432,7 @@ Outcome scenarios:
 
 1. Sundeep reviews this scope draft
 2. Discussion call: resource commitment confirmation, question resolution
-3. Kickoff week of April 28 (if aligned)
+3. Kickoff May 2 onward (if aligned)
 4. Week 1 Task 1: measure baseline (50 queries × 4 engines) → target ranges locked
 5. First decision gate: Week 5
 
