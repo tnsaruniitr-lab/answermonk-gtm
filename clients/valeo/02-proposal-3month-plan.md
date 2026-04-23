@@ -204,8 +204,7 @@ The plan includes material **analysis and automation build-out** — not just st
 | AggregateRating ↔ Trustpilot integration spec + TOS compliance review | 5 |
 | Strategy calls + iteration | 6 |
 | **Base subtotal** | **47** |
-| **+ 30% buffer** | **14** |
-| **Buffered total** | **~61 hrs** |
+| **Buffered total (with 30% buffer)** | **~61 hrs** |
 
 ### Workstream 2 — Content + E-E-A-T + Brand-Aware Blog Writer Automation (Weeks 4-10)
 
@@ -228,8 +227,7 @@ The plan includes material **analysis and automation build-out** — not just st
 | Medical-review integration flow (diff view, approval tracking) | 4 |
 | Handover docs + content-team training | 4 |
 | **Base subtotal** | **151** |
-| **+ 30% buffer** | **45** |
-| **Buffered total** | **~196 hrs** |
+| **Buffered total (with 30% buffer)** | **~196 hrs** |
 
 ### Workstream 3 — Measurement Infrastructure + Competitive Intel + Paid Audit (Weeks 1-12)
 
@@ -263,17 +261,16 @@ Split into a one-time **Build phase** (Weeks 1-3) and **Run phase** (Weeks 2-12)
 | Rollup | Hrs |
 |---|---|
 | Build + Run base | 190 |
-| + 30% buffer | 57 |
-| **Buffered total** | **~247 hrs** |
+| **Buffered total (with 30% buffer)** | **~247 hrs** |
 
 ### Advisor engagement total
 
-| Workstream | Base | +30% buffer | Buffered total |
-|---|---|---|---|
-| WS1 — Foundation Fix | 47 | 14 | **~61** |
-| WS2 — Content + Blog Writer Automation | 151 | 45 | **~196** |
-| WS3 — Measurement Infra + Intel + Paid Audit | 190 | 57 | **~247** |
-| **Advisor total (Arun)** | **388** | **116** | **~504 hrs** |
+| Workstream | Base | Buffered total (with 30%) |
+|---|---|---|
+| WS1 — Foundation Fix | 47 | **~61** |
+| WS2 — Content + Blog Writer Automation | 151 | **~196** |
+| WS3 — Measurement Infra + Intel + Paid Audit | 190 | **~247** |
+| **Advisor total (Arun)** | **388** | **~504 hrs** |
 
 Implied weekly load: **~42 hrs/week** across 12 weeks. This is a near-full-time commitment. If the scope needs to run alongside other advisor commitments, the blog-writer automation and/or top-5 city page upgrades are the natural deferral candidates — those two items together represent ~60 hrs of buffered scope.
 
