@@ -264,7 +264,7 @@ If capacity is lower than the table, scope reduces proportionally. This is a mea
 | Person schema spec (founder + medical director, DHA credential display) |
 | AggregateRating ↔ Trustpilot integration spec + TOS compliance review |
 | Strategy calls + iteration |
-| **Total: ~79 hrs (with 30% buffer)** |
+| **Total: ~59 hrs (with 30% buffer)** |
 
 ### Workstream 2 — Content + E-E-A-T + Founder Community Authority (Weeks 4-14)
 
@@ -293,7 +293,7 @@ Frameworks + templates approach for on-site content. Founder-led, compliance-nat
 | Google Business Profile + App Store review invitation flows (extend Trustpilot pattern) |
 | Monthly community footprint audits + response coordination |
 
-**Total: ~118 hrs (with 30% buffer)**
+**Total: ~89 hrs (with 30% buffer)**
 
 ### Workstream 3 — Measurement + Competitive Intel + Paid Audit (Weeks 1-16)
 
@@ -320,7 +320,7 @@ Lightweight measurement ops feeding into the WS4 Founder Live Dashboard. Full Te
 | W16 measurement audit + ROI write-up + Q2 scope |
 | Cross-workstream strategy alignment + Friday reports |
 
-**Total: ~140 hrs (with 30% buffer)**
+**Total: ~105 hrs (with 30% buffer)**
 
 ### Workstream 4 — Always-On Intelligence (Weeks 2-16)
 
@@ -336,27 +336,27 @@ Founder Live Dashboard, Sieve brain integration, schema drift + content recency 
 | Dashboard iteration + founder/Ritwik feedback loop (W6, W10, W14) |
 | Ongoing alert curation + tuning (~0.5 hrs × 14 weeks) |
 
-**Total: ~95 hrs (with 30% buffer)**
+**Total: ~71 hrs (with 30% buffer)**
 
 ### Operator engagement total
 
 | Workstream | Total hrs (with 30% buffer) |
 |---|---|
-| WS1 — Foundation Fix (incl. pre-build technical audit) | ~79 |
-| WS2 — Content + E-E-A-T + Founder Community Authority | ~118 |
-| WS3 — Measurement + Intel + Paid Audit | ~140 |
-| WS4 — Always-On Intelligence (Dashboard + Sieve + automation) | ~95 |
-| **Operator total (me)** | **~432 hrs** |
+| WS1 — Foundation Fix (incl. pre-build technical audit) | ~59 |
+| WS2 — Content + E-E-A-T + Founder Community Authority | ~89 |
+| WS3 — Measurement + Intel + Paid Audit | ~105 |
+| WS4 — Always-On Intelligence (Dashboard + Sieve + automation) | ~71 |
+| **Operator total (me)** | **~324 hrs** |
 
-**Weekly load profile** (~27 hrs/week average over 16 weeks):
+**Weekly load profile** (~20 hrs/week average over 16 weeks):
 
 | Phase | Weeks | Avg hrs/week |
 |---|---|---|
-| Pre-build audit + foundation + dashboard + Sieve build | W1-5 | ~30 |
-| Schema + FAQ + community playbook + automation operational | W6-8 | ~28 |
-| Content depth + community posting + first paid audit | W9-11 | ~26 |
-| Content velocity + dashboard refinement + community cadence | W12-14 | ~24 |
-| Close + re-audit + handover | W15-16 | ~21 |
+| Pre-build audit + foundation + dashboard + Sieve build | W1-5 | ~23 |
+| Schema + FAQ + community playbook + automation operational | W6-8 | ~21 |
+| Content depth + community posting + first paid audit | W9-11 | ~20 |
+| Content velocity + dashboard refinement + community cadence | W12-14 | ~18 |
+| Close + re-audit + handover | W15-16 | ~16 |
 
 Notes:
 - Buffer is drawn down only as consumed; unused buffer rolls into Phase 2 scope discussions.
