@@ -175,7 +175,7 @@ Concrete target ranges (replacing "conservative / upside") will be set after Wee
 
 Targets assume these conditions hold:
 
-- Engineering capacity as committed (20-25 hrs/week Weeks 2-6; 10-15 hrs/week after)
+- Engineering capacity as committed (10-14 hrs/week across the engagement)
 - Medical reviewer availability at a 48-hour content-approval SLA
 - Legal review availability for comparison + regulatory-adjacent content (3-5 hrs total)
 - Content team capacity (~20 hrs/week) during Weeks 7-14
@@ -202,7 +202,7 @@ If any of these change materially, scope and targets are renegotiated.
 
 | Role | Weeks 1-6 | Weeks 7-16 |
 |---|---|---|
-| Engineering | 20-25 hrs/week | 8-12 hrs/week |
+| Engineering | 10-14 hrs/week | 10-14 hrs/week |
 | Content team | 5 hrs/week | 18-22 hrs/week |
 | Medical reviewer | 3-5 hrs/week | 3-5 hrs/week |
 | Legal reviewer | 2-3 hrs total | 2-3 hrs total |
