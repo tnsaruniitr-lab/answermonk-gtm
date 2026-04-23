@@ -25,19 +25,19 @@ Two headline outcomes anchor the engagement:
 - **AI appearance rate: >10%** across the 50-query × 4-engine canonical set (up from effectively **0%** — Week 1 baseline will confirm, expected near zero).
 - **Organic website traffic: +[X]%** — specific range to be aligned against the Week 1 GSC + GA4 baseline and documented in the Week 1 kickoff note.
 
-**Co-ownership:** Outcomes are **co-owned by Ritwik (Valeo)** and Arun (AEO Operator + Build Partner), with Sundeep as approver. Weekly delivery cadence and scope decisions run through Ritwik + Arun; escalations and gate decisions run through Sundeep.
+**Co-ownership:** Outcomes are **co-owned by Ritwik (Valeo)** and me (AEO Operator + Build Partner), with Sundeep as approver. Weekly delivery cadence and scope decisions run through Ritwik and me; escalations and gate decisions run through Sundeep.
 
 ---
 
 ## Role: AEO Operator + Build Partner
 
-Arun's role on this engagement is **not passive advisory**. The scope includes scoping, building, and running:
+My role on this engagement is **not passive advisory**. The scope includes scoping, building, and running:
 
 - **Scope:** workstream design, baseline measurement methodology, content frameworks, compliance gates, target-range setting
 - **Build:** blog content bot automation, Founder Live Dashboard, Sieve brain integration pipeline, schema drift validators, competitive change detection, content recency triggers — delivered as working infrastructure, not specs handed over
 - **Run:** weekly measurement ritual, competitive intel deep-dives, paid efficiency audits, alert curation, content QA against E-E-A-T and YMYL standards
 
-Valeo's engineering team handles production deploys on its own stack. Valeo's content team executes against the frameworks. Arun owns everything between strategy and their execution — including the tooling that makes their execution efficient.
+Valeo's engineering team handles production deploys on its own stack. Valeo's content team executes against the frameworks. I own everything between strategy and their execution — including the tooling that makes their execution efficient.
 
 This is why the engagement is priced as a 4-month operator commitment, not an advisor retainer.
 
@@ -78,10 +78,10 @@ This is the highest-confidence block of work in the engagement: the content, sch
 - **2 balanced comparison posts** (Valeo vs category alternatives). Legal review before publish.
 - **Founder-led community authority (compliance-native):**
   - **Compliance playbook first** — Valeo-specific, medical + legal reviewed: what founders can say, what they can't, how to redirect medical-advice asks, disclosure templates. All community activity gated on this landing.
-  - **Quora.** Topic map of 15-20 high-intent UAE at-home healthcare questions. Founder-byline answer framework. Arun drafts and edits for AEO + compliance; Sundeep or Ritwik post under their real identity.
+  - **Quora.** Topic map of 15-20 high-intent UAE at-home healthcare questions. Founder-byline answer framework. I draft and edit for AEO + compliance; Sundeep or Ritwik post under their real identity.
   - **Reddit.** Subreddit map (r/Dubai, r/UAE, r/UAE_Expats, r/DubaiLife + 2-3 relevant health/wellness subs). ~2 founder posts/month under identified handles. Operational and category content (pricing transparency, logistics, patient experience) — **no medical advice in replies**; those redirect to consult booking.
   - **Review expansion.** Google Business Profile + App Store review invitation campaigns, extending the Trustpilot invitation flow. Same compliance rules: post-service email, no incentivization, no gating.
-  - **Monthly community footprint audit** — mentions, sentiment, response coordination (Ritwik owns responses; Arun coordinates).
+  - **Monthly community footprint audit** — mentions, sentiment, response coordination (Ritwik owns responses; I coordinate).
 
 **Deferred to Phase 2 (explicit):** brand-aware blog writer automation (full pipeline build), Arabic content parity, press outreach at scale, additional city-page depth beyond the top 5, Telegram alerts. These are material workstreams and should be scoped separately with their own compliance + capacity review.
 
@@ -249,7 +249,7 @@ If capacity is lower than the table, scope reduces proportionally. This is a mea
 
 ## Operator Effort Estimates
 
-**Arun's hours only** (scope + build + run) — the contracted commitment. Valeo-side hours are separate (see Resource Commitments). All totals include a **30% buffer** for review cycles, regulatory-review latency, re-crawl diagnostics, and healthcare-specific rework.
+**My hours only** (scope + build + run) — the contracted commitment. Valeo-side hours are separate (see Resource Commitments). All totals include a **30% buffer** for review cycles, regulatory-review latency, re-crawl diagnostics, and healthcare-specific rework.
 
 ### Workstream 1 — Foundation Fix (Weeks 1-5)
 
@@ -346,7 +346,7 @@ Founder Live Dashboard, Sieve brain integration, schema drift + content recency 
 | WS2 — Content + E-E-A-T + Founder Community Authority | ~118 |
 | WS3 — Measurement + Intel + Paid Audit | ~140 |
 | WS4 — Always-On Intelligence (Dashboard + Sieve + automation) | ~95 |
-| **Operator total (Arun)** | **~432 hrs** |
+| **Operator total (me)** | **~432 hrs** |
 
 **Weekly load profile** (~27 hrs/week average over 16 weeks):
 
