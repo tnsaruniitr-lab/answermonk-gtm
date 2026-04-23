@@ -265,12 +265,12 @@ Split into a one-time **Build phase** (Weeks 1-3) and **Run phase** (Weeks 2-12)
 
 ### Advisor engagement total
 
-| Workstream | Base | Buffered total (with 30%) |
-|---|---|---|
-| WS1 — Foundation Fix | 47 | **~61** |
-| WS2 — Content + Blog Writer Automation | 151 | **~196** |
-| WS3 — Measurement Infra + Intel + Paid Audit | 190 | **~247** |
-| **Advisor total (Arun)** | **388** | **~504 hrs** |
+| Workstream | Total hrs (with 30% buffer) |
+|---|---|
+| WS1 — Foundation Fix | ~61 |
+| WS2 — Content + Blog Writer Automation | ~196 |
+| WS3 — Measurement Infra + Intel + Paid Audit | ~247 |
+| **Advisor total (Arun)** | **~504 hrs** |
 
 Implied weekly load: **~42 hrs/week** across 12 weeks. This is a near-full-time commitment. If the scope needs to run alongside other advisor commitments, the blog-writer automation and/or top-5 city page upgrades are the natural deferral candidates — those two items together represent ~60 hrs of buffered scope.
 
