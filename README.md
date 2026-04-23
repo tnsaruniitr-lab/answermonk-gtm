@@ -39,6 +39,14 @@ Built from: extensive Ahrefs research (11 turns of competitive + keyword + backl
 | `tools/02-aeo-tech-audit-spec.md` | Tool 2 (planned) — AEO Technical Audit (AI crawler access, schema, SSR, llms.txt) — spec to be added |
 | `tools/03-blog-auditor-spec.md` | Tool 3 (Month 4-5) — Blog Content + AEO Auditor — spec to be added |
 
+### `/clients/` — Advisory work for other brands
+
+| Folder | Client | Status |
+|---|---|---|
+| `clients/valeo/` | Valeo Health (feelvaleo.com) | 3-month proposal — GCC at-home healthcare AEO program |
+
+See `clients/README.md` for the full index.
+
 ---
 
 ## Quick start — what to do this week
