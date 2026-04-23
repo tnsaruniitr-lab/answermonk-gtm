@@ -4,23 +4,34 @@
 **Date:** 2026-04-23
 **Duration:** 12 weeks, starting week of 2026-04-28
 **Status:** Scope draft for discussion — pricing, resourcing, and final targets to be agreed in kickoff call
-**Basis:** SEO + AEO + GEO Audit of feelvaleo.com, 2026-04-14
+**Basis:** SEO + AEO + GEO analysis of feelvaleo.com, 2026-04-14
 
 ---
 
 ## Opportunity
 
-Valeo ranks in the top results on Google for high-intent at-home healthcare queries in Dubai and has established off-page brand presence (Trustpilot, App Store, Dubai Review, multiple social profiles). The April 14 audit scored Brand AI Presence in the B- range — directionally above the competitors audited in the same session.
+Valeo ranks in the top results on Google for high-intent at-home healthcare queries in Dubai and has established off-page brand presence (Trustpilot, App Store, Dubai Review, multiple social profiles). The April 14 analysis scored Brand AI Presence in the B- range — directionally above the competitors reviewed in the same session.
 
-The same audit surfaced a specific architectural constraint: the canonical root page (`feelvaleo.com`) serves ~106 words of language/country splash content, while the substantive service content (~2,677 words) lives at `/en-ae/dubai`. This structure *may limit* what AI engines can extract when they fetch the root URL — which is typically the most-crawled and most-cited URL for a brand. Whether this is the dominant constraint on AI appearance, or one of several, will be validated through the baseline measurement described below.
+The same analysis surfaced a specific architectural constraint: the canonical root page (`feelvaleo.com`) serves ~106 words of language/country splash content, while the substantive service content (~2,677 words) lives at `/en-ae/dubai`. This structure *may limit* what AI engines can extract when they fetch the root URL — which is typically the most-crawled and most-cited URL for a brand. Whether this is the dominant constraint on AI appearance, or one of several, will be validated through the baseline measurement described below.
 
 The intent of this engagement is to close the extraction gap, improve page-level citation readiness, and test whether existing brand authority can be converted into measurable AI citations and incremental organic traffic over a 12-week window.
 
 ---
 
+## Target Outcome
+
+Two headline outcomes anchor the engagement:
+
+- **AI appearance rate: >10%** across the 50-query × 4-engine canonical set (up from effectively **0%** — Week 1 baseline will confirm, expected near zero).
+- **Organic website traffic: +[X]%** — specific range to be aligned against the Week 1 GSC + GA4 baseline and documented in the Week 1 kickoff note.
+
+**Co-ownership:** Outcomes are **co-owned by Ritwik (Valeo)** and Arun (advisor), with Sundeep as approver. Weekly delivery cadence and scope decisions run through Ritwik + Arun; escalations and gate decisions run through Sundeep.
+
+---
+
 ## Methodology Note
 
-Scores and signals referenced here are drawn from the April 14 audit (98 checks across technical SEO, schema, AEO extraction, AEO trust, AEO selection, entity consistency, and GEO dimensions). Specific audit numbers:
+Scores and signals referenced here are drawn from the April 14 analysis (98 checks across technical SEO, schema, AEO extraction, AEO trust, AEO selection, entity consistency, and GEO dimensions). Specific numbers:
 
 - **Page Citation Readiness:** 55% (F) — composite of technical + schema + content extractability checks
 - **Brand AI Presence:** ~75% (B-) — *directional* composite of SERP position, indexed URL count, and third-party brand mention signals; **not** a measured AI citation rate
@@ -33,9 +44,9 @@ Scores and signals referenced here are drawn from the April 14 audit (98 checks 
 ## Scope: 3 Workstreams
 
 ### Workstream 1 — Foundation Fix (Weeks 1-4)
-Rebuild the root page so AI engines can extract substantive content from it. Port the existing schema pattern from `/en-ae/dubai` to root. Address technical hygiene items from the audit (dynamic `dateModified`, missing HSTS, aggressive Cache-Control).
+Rebuild the root page so AI engines can extract substantive content from it. Port the existing schema pattern from `/en-ae/dubai` to root. Address technical hygiene items from the analysis (dynamic `dateModified`, missing HSTS, aggressive Cache-Control).
 
-This is the highest-confidence block of work in the engagement: the content, schema, and topical depth already exist on the site and are being relocated, not invented. The audit's Extraction checks are expected to move materially upward post-deploy (exact magnitude to be measured). Actual impact on AI citations will depend on AI engine re-crawl cadence (commonly 7-21 days for major engines) and will be assessed in Weeks 4-8.
+This is the highest-confidence block of work in the engagement: the content, schema, and topical depth already exist on the site and are being relocated, not invented. Extraction checks are expected to move materially upward post-deploy (exact magnitude to be measured). Actual impact on AI citations will depend on AI engine re-crawl cadence (commonly 7-21 days for major engines) and will be assessed in Weeks 4-8.
 
 ### Workstream 2 — Content + E-E-A-T (Weeks 4-10)
 - **Medical authority signals.** Founder and medical director Person schema with DHA credentials; visible DHA license display; medical director byline on health content. Standard E-E-A-T requirements for YMYL healthcare content.
@@ -130,7 +141,7 @@ All outcomes are **target scenarios** — illustrative ranges, subject to (a) ba
 | Dimension | Week 0 | Scenario: Conservative | Scenario: Upside |
 |---|---|---|---|
 | AI citation rate (50 queries × 4 engines) | Measured Week 1 | +2-3x baseline | +5-10x baseline |
-| Page Citation Readiness (audit score) | 55% | 75-80% | 85%+ |
+| Page Citation Readiness (analysis score) | 55% | 75-80% | 85%+ |
 | Organic traffic (total sessions) | Measured Week 1 | +20-30% | +40-60% |
 | Branded search trend (GSC brand-term impressions) | Measured Week 1 | Trending up | Clear step-change |
 | Featured snippets captured | Not measured | 2-5 new | 5-10 new |
@@ -328,7 +339,7 @@ Outcome scenarios:
 ## Why This Scope Is Credible
 
 1. **Baseline-first.** Week 1 measures before Week 3 ships. Targets anchor to measured starting points, not estimates.
-2. **Audit-grounded.** Every fix traces to a specific finding in the April 14 audit.
+2. **Analysis-grounded.** Every fix traces to a specific finding in the April 14 analysis.
 3. **Compliance-native.** Medical review, DHA adherence, YMYL standards, and review-collection TOS are in the workflow, not added after.
 4. **Conditional framing.** Outcomes are target scenarios with explicit dependencies — not commitments.
 5. **Focused scope.** 3 workstreams. Arabic, press at scale, Reddit/Quora explicitly deferred to Phase 2.
