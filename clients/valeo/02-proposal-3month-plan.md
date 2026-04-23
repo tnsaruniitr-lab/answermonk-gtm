@@ -25,7 +25,21 @@ Two headline outcomes anchor the engagement:
 - **AI appearance rate: >10%** across the 50-query × 4-engine canonical set (up from effectively **0%** — Week 1 baseline will confirm, expected near zero).
 - **Organic website traffic: +[X]%** — specific range to be aligned against the Week 1 GSC + GA4 baseline and documented in the Week 1 kickoff note.
 
-**Co-ownership:** Outcomes are **co-owned by Ritwik (Valeo)** and Arun (advisor), with Sundeep as approver. Weekly delivery cadence and scope decisions run through Ritwik + Arun; escalations and gate decisions run through Sundeep.
+**Co-ownership:** Outcomes are **co-owned by Ritwik (Valeo)** and Arun (AEO Operator + Build Partner), with Sundeep as approver. Weekly delivery cadence and scope decisions run through Ritwik + Arun; escalations and gate decisions run through Sundeep.
+
+---
+
+## Role: AEO Operator + Build Partner
+
+Arun's role on this engagement is **not passive advisory**. The scope includes scoping, building, and running:
+
+- **Scope:** workstream design, baseline measurement methodology, content frameworks, compliance gates, target-range setting
+- **Build:** blog content bot automation, Founder Live Dashboard, Sieve brain integration pipeline, schema drift validators, competitive change detection, content recency triggers — delivered as working infrastructure, not specs handed over
+- **Run:** weekly measurement ritual, competitive intel deep-dives, paid efficiency audits, alert curation, content QA against E-E-A-T and YMYL standards
+
+Valeo's engineering team handles production deploys on its own stack. Valeo's content team executes against the frameworks. Arun owns everything between strategy and their execution — including the tooling that makes their execution efficient.
+
+This is why the engagement is priced as a 4-month operator commitment, not an advisor retainer.
 
 ---
 
@@ -68,7 +82,7 @@ This is the highest-confidence block of work in the engagement: the content, sch
 
 ### Workstream 4 — Always-On Intelligence (Weeks 2-16)
 
-Continuous intelligence layer — the single source of truth Ritwik and Sundeep open any day of the week. Turns the engagement from periodic-report advisory into a living system.
+Continuous intelligence layer — the single source of truth Ritwik and Sundeep open any day of the week. Turns the engagement from periodic reports into a living system.
 
 - **Founder Live Dashboard.** Single view (Airtable or Retool) of AI appearance rate, SERP rank, organic traffic, Valeo vs competitor citation gap, content health (freshness + schema coverage), paid metrics. Always-current; no waiting for Friday reports.
 - **Sieve brain integration.** Valeo pages continuously re-audited against the latest extracted rules in Sieve's brain (principles, playbooks, anti-patterns). When LLM / SEO / AEO rules shift (Google docs, OpenAI guidance, Perplexity changes), Valeo's pages get re-checked against the new standard and drift is flagged.
@@ -213,9 +227,9 @@ If capacity is lower than the table, scope reduces proportionally. This is a mea
 
 ---
 
-## Advisor Effort Estimates
+## Operator Effort Estimates
 
-**Advisor (Arun) hours only** — the contracted scope. Valeo-side hours are separate (see Resource Commitments). All totals include a **30% buffer** for review cycles, regulatory-review latency, re-crawl diagnostics, and healthcare-specific rework.
+**Arun's hours only** (scope + build + run) — the contracted commitment. Valeo-side hours are separate (see Resource Commitments). All totals include a **30% buffer** for review cycles, regulatory-review latency, re-crawl diagnostics, and healthcare-specific rework.
 
 ### Workstream 1 — Foundation Fix (Weeks 1-4)
 
@@ -290,7 +304,7 @@ Founder Live Dashboard, Sieve brain integration, schema drift + content recency 
 
 **Total: ~95 hrs (with 30% buffer)**
 
-### Advisor engagement total
+### Operator engagement total
 
 | Workstream | Total hrs (with 30% buffer) |
 |---|---|
@@ -298,7 +312,7 @@ Founder Live Dashboard, Sieve brain integration, schema drift + content recency 
 | WS2 — Content + E-E-A-T | ~68 |
 | WS3 — Measurement + Intel + Paid Audit | ~140 |
 | WS4 — Always-On Intelligence (Dashboard + Sieve + automation) | ~95 |
-| **Advisor total (Arun)** | **~364 hrs** |
+| **Operator total (Arun)** | **~364 hrs** |
 
 **Weekly load profile** (~23 hrs/week average over 16 weeks):
 
@@ -383,7 +397,7 @@ Outcome scenarios:
 4. **Conditional framing.** Outcomes are target scenarios with explicit dependencies — not commitments.
 5. **Focused scope.** 4 workstreams. Arabic, press at scale, Reddit/Quora explicitly deferred to Phase 2.
 6. **Paid ads stays with marketing team.** We audit efficiency; we do not duplicate execution.
-7. **Compounding infrastructure.** WS4 (dashboard + Sieve integration + drift detection) outlives the engagement — Valeo keeps re-auditing against evolving LLM/SEO rules without continued advisor time.
+7. **Compounding infrastructure.** WS4 (dashboard + Sieve integration + drift detection) outlives the engagement — Valeo keeps re-auditing against evolving LLM/SEO rules without continued operator time.
 8. **Evidence over assertion.** Directional claims labeled as directional. Unmeasured values labeled as unmeasured.
 
 ---
