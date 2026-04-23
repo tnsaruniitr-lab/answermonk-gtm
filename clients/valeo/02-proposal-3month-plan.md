@@ -44,16 +44,16 @@ This is the highest-confidence block of work in the engagement: the content, sch
 - **Top 5 city/service pages upgraded** to competitive depth. (Reduced from 10 to 5 to protect against scope overload — additional pages deferred to Phase 2.)
 - **2 balanced comparison posts** (Valeo vs category alternatives). Legal review before publish.
 
-**Deferred to Phase 2 (explicit):** Arabic content parity, press outreach at scale, Reddit/Quora participation, additional city-page depth beyond the top 5. These are material workstreams and should be scoped separately with their own compliance + capacity review.
+**Deferred to Phase 2 (explicit):** brand-aware blog writer automation (full pipeline build), Arabic content parity, press outreach at scale, Reddit/Quora participation, additional city-page depth beyond the top 5. These are material workstreams and should be scoped separately with their own compliance + capacity review.
 
-### Workstream 3 — Measurement + Competitive Intel + Paid Efficiency Audit (Ongoing)
-- **AI citation tracking.** 50 canonical queries × 4 engines, weekly measurement, Valeo + 3-4 competitors.
-- **SERP + AI Overview monitoring** on ~30 priority queries, weekly.
-- **Competitive gap analysis.** Where competitors are cited and Valeo is not; what content or schema appears to drive the gap.
-- **AI-assisted keyword discovery.** Use ChatGPT/Claude/Perplexity to surface real user phrasing that classical keyword tools underweight.
-- **Alert infrastructure.** Automated notifications (email or Telegram) on material changes — competitor rank shifts, new AI Overview triggers, review volume movements.
-- **Paid efficiency audit (advisory only — no execution).** Monthly audit of Google Ads / Meta campaigns run by Valeo's marketing team, covering: keyword-to-landing-page alignment, Quality Score drivers, attribution gaps, organic cannibalization, conversion tracking accuracy, negative keyword coverage, ad-copy vs landing-page consistency. Deliverable: efficiency report + recommendations. Marketing team owns execution.
-- **Weekly dashboard** (Airtable or Notion): single view of AI appearance signals, SERP rank, organic traffic, referring domains, and paid metrics shared by the marketing team.
+### Workstream 3 — Measurement + Competitive Intel + Paid Efficiency Audit (Weeks 1-12)
+- **AI citation tracking.** 50 canonical queries × 4 engines. Weekly in Weeks 1-4 (to catch re-crawl impact after foundation ship), bi-weekly Weeks 5-12.
+- **SERP + AI Overview monitoring** on ~30 priority queries, same cadence.
+- **Competitive gap analysis.** 2 deep-dives during the engagement — where competitors are cited that Valeo isn't, and what content/schema appears to drive the gap.
+- **AI-assisted keyword discovery.** Surface real user phrasing via ChatGPT/Claude/Perplexity probing.
+- **Email alert infrastructure** on material changes — competitor rank shifts, new AI Overview triggers, review volume movements. (Telegram deferred to Phase 2.)
+- **Paid efficiency audit (advisory only — no execution).** 2 audit reports (Week 8, Week 12) of Google Ads / Meta campaigns run by Valeo's marketing team: keyword-to-landing-page alignment, Quality Score drivers, attribution gaps, organic cannibalization, conversion tracking, negative keyword coverage, ad-copy vs landing-page consistency. Marketing team owns execution.
+- **Dashboard** (Airtable or Notion): single view of AI appearance signals, SERP rank, organic traffic, referring domains, and paid metrics shared by the marketing team.
 
 ---
 
@@ -187,97 +187,87 @@ If capacity is lower than the table, scope reduces proportionally. This is a mea
 
 ## Advisor Effort Estimates
 
-Below are **advisor (Arun) hours only** — the contracted scope. Valeo-side hours are separate (see Resource Commitments above). A **30% buffer** is applied per workstream to cover review cycles, regulatory-review latency, re-crawl diagnostics, prompt tuning iterations, and scope ambiguities typical in healthcare delivery.
-
-The plan includes material **analysis and automation build-out** — not just strategy. The blog writer automation and competitive intel infrastructure are significant engineering efforts in their own right and are called out explicitly below.
+**Advisor (Arun) hours only** — the contracted scope. Valeo-side hours are separate (see Resource Commitments). All totals include a **30% buffer** for review cycles, regulatory-review latency, re-crawl diagnostics, and healthcare-specific rework.
 
 ### Workstream 1 — Foundation Fix (Weeks 1-4)
 
-| Activity | Base hrs |
-|---|---|
-| Root page content spec + structure (2,500 words, medical-reviewed brief) | 10 |
-| Schema @graph design (port + enhance from /en-ae/dubai) | 8 |
-| Technical fix spec + engineering handoff (HSTS, Cache-Control, dateModified) | 4 |
-| Staging review + pre-deploy QA across AI crawler user agents | 6 |
-| Post-deploy AI crawl validation + re-index tracking | 4 |
-| Person schema spec (founder + medical director, DHA credential display) | 4 |
-| AggregateRating ↔ Trustpilot integration spec + TOS compliance review | 5 |
-| Strategy calls + iteration | 6 |
-| **Base subtotal** | **47** |
-| **Buffered total (with 30% buffer)** | **~61 hrs** |
+| Activity |
+|---|
+| Root page content spec + structure (~2,500 words, medical-reviewed brief) |
+| Schema @graph design (port + enhance from /en-ae/dubai) |
+| Technical fix spec + engineering handoff (HSTS, Cache-Control, dateModified) |
+| Staging review + pre-deploy QA across AI crawler user agents |
+| Post-deploy AI crawl validation + re-index tracking |
+| Person schema spec (founder + medical director, DHA credential display) |
+| AggregateRating ↔ Trustpilot integration spec + TOS compliance review |
+| Strategy calls + iteration |
+| **Total: ~61 hrs (with 30% buffer)** |
 
-### Workstream 2 — Content + E-E-A-T + Brand-Aware Blog Writer Automation (Weeks 4-10)
+### Workstream 2 — Content + E-E-A-T (Weeks 4-10)
 
-| Activity | Base hrs |
-|---|---|
-| **Content strategy + briefs** | |
-| FAQ sourcing methodology + PAA harvesting approach | 6 |
-| 50 FAQ briefs (groups of 5-10) + editorial QA | 16 |
-| Top-5 city-page content briefs + competitive-depth framework | 20 |
-| 2 comparison post frameworks + legal gate spec | 8 |
-| 5-8 blog post briefs + editorial standards | 15 |
-| E-E-A-T audit (medical authority surfacing across site) | 8 |
-| Schema consistency QA across 10+ pages | 10 |
-| Content iteration + medical-review coordination | 10 |
-| **Brand-aware blog writer automation (custom build)** | |
-| Brand voice + guardrail spec (ingest Valeo tone, YMYL compliance rules, DHA constraints) | 10 |
-| Pipeline build: intake → draft → medical-review handoff → schema injection → publish-ready export | 20 |
-| Prompt library + few-shot examples for healthcare YMYL (per content type: FAQ, blog, city page) | 10 |
-| Testing + tuning on 3-5 sample pieces against medical reviewer feedback | 10 |
-| Medical-review integration flow (diff view, approval tracking) | 4 |
-| Handover docs + content-team training | 4 |
-| **Base subtotal** | **151** |
-| **Buffered total (with 30% buffer)** | **~196 hrs** |
+Frameworks + templates approach. Valeo's content team executes against the frameworks. Brand-aware blog writer automation (full pipeline) deferred to Phase 2.
+
+| Activity |
+|---|
+| FAQ sourcing methodology + PAA harvesting approach |
+| FAQ editorial template + QA framework (50 pairs, batch review) |
+| Top-5 city-page framework + page-level briefs |
+| 2 comparison post frameworks + legal gate spec |
+| Blog post editorial standards + brief templates (5-8 pieces) |
+| E-E-A-T audit (medical authority surfacing across site) |
+| Schema consistency QA across 10+ pages |
+| Content iteration + medical-review coordination |
+| **Total: ~68 hrs (with 30% buffer)** |
 
 ### Workstream 3 — Measurement Infrastructure + Competitive Intel + Paid Audit (Weeks 1-12)
 
-Split into a one-time **Build phase** (Weeks 1-3) and **Run phase** (Weeks 2-12).
+Lightweight build (spreadsheet-driven measurement, email alerts, Airtable dashboard). Full Telegram alerts + full scraper pipeline deferred to Phase 2.
 
-#### Build phase (one-time)
+**Build phase (Weeks 1-3):**
 
-| Activity | Base hrs |
-|---|---|
-| Baseline measurement harness (50 queries × 4 engines × scripted runs) | 8 |
-| Competitive intel automation (SERP + AI Overview scrapers, 4 competitors) | 14 |
-| AI citation tracking pipeline (per-engine parsers, attribution logic) | 12 |
-| Competitor comparison layer + normalization + scoring | 10 |
-| Telegram alert infrastructure (bot, threshold rules, routing) | 10 |
-| Dashboard build (Airtable / Notion, views, rollups, data sync) | 12 |
-| **Build subtotal** | **66** |
+| Activity |
+|---|
+| Baseline measurement harness (50 queries × 4 engines, scripted) |
+| Lightweight competitive intel setup (4 competitors, semi-manual weekly check) |
+| AI citation tracking (spreadsheet + prompts, not full pipeline) |
+| Email alert rules + routing |
+| Dashboard (Airtable, views + rollups) |
 
-#### Run phase (ongoing, 12 weeks)
+**Run phase (Weeks 2-12):**
 
-| Activity | Base hrs |
-|---|---|
-| Weekly AI citation measurement ritual (2.5 hrs × 12) | 30 |
-| Weekly competitor SERP + AI Overview tracking (2 hrs × 12) | 24 |
-| Competitive gap deep-dive analyses (3 iterations × 5 hrs) | 15 |
-| AI-assisted keyword discovery (ChatGPT/Claude/Perplexity probing) | 10 |
-| Paid efficiency audit reports (2 × 10 hrs, full review of Google Ads + Meta) | 20 |
-| Week 12 measurement audit + ROI write-up + Q2 scope | 15 |
-| Cross-workstream strategy alignment + Friday reports | 10 |
-| **Run subtotal** | **124** |
+| Activity |
+|---|
+| Weekly measurement Weeks 1-4 (post-foundation re-crawl window), bi-weekly Weeks 5-12 |
+| Competitor SERP + AI Overview tracking (same cadence) |
+| 2 competitive gap deep-dive analyses |
+| AI-assisted keyword discovery (1 pass Week 3, 1 pass Week 9) |
+| 2 paid efficiency audit reports (Week 8, Week 12) |
+| Week 12 measurement audit + ROI write-up + Q2 scope |
+| Cross-workstream strategy alignment + Friday reports |
 
-| Rollup | Hrs |
-|---|---|
-| Build + Run base | 190 |
-| **Buffered total (with 30% buffer)** | **~247 hrs** |
+**Total: ~126 hrs (with 30% buffer)**
 
 ### Advisor engagement total
 
 | Workstream | Total hrs (with 30% buffer) |
 |---|---|
 | WS1 — Foundation Fix | ~61 |
-| WS2 — Content + Blog Writer Automation | ~196 |
-| WS3 — Measurement Infra + Intel + Paid Audit | ~247 |
-| **Advisor total (Arun)** | **~504 hrs** |
+| WS2 — Content + E-E-A-T | ~68 |
+| WS3 — Measurement Infra + Intel + Paid Audit | ~126 |
+| **Advisor total (Arun)** | **~255 hrs** |
 
-Implied weekly load: **~42 hrs/week** across 12 weeks. This is a near-full-time commitment. If the scope needs to run alongside other advisor commitments, the blog-writer automation and/or top-5 city page upgrades are the natural deferral candidates — those two items together represent ~60 hrs of buffered scope.
+**Weekly load profile** (~21 hrs/week average):
+
+| Phase | Weeks | Avg hrs/week |
+|---|---|---|
+| Foundation + intel build | W1-4 | ~25 |
+| Content depth + mid-engagement | W5-8 | ~20 |
+| Content velocity + run ops + close | W9-12 | ~17 |
 
 Notes:
 - Buffer is drawn down only as consumed; unused buffer rolls into Phase 2 scope discussions.
-- If Week 1 baseline reveals different starting conditions than the audit implies, estimates are re-baselined before Week 3.
-- Automation build hours (blog writer + intel infra) are front-loaded in Weeks 1-4 — the heaviest advisor weeks are Weeks 1-4, tapering in Weeks 9-12 to run ops + audit.
+- If Week 1 baseline reveals materially different starting conditions, estimates are re-baselined before Week 3.
+- **Deferred to Phase 2** (explicit, scoped separately): brand-aware blog writer pipeline build, Telegram alert infrastructure, Arabic content parity, press outreach at scale, Reddit/Quora.
 
 ---
 
