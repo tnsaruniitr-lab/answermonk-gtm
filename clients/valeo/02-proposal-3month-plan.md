@@ -185,6 +185,82 @@ If capacity is lower than the table, scope reduces proportionally. This is a mea
 
 ---
 
+## Effort Estimates
+
+Estimates below cover total human hours per workstream, split by role. A **30% buffer** is applied to each base estimate to account for review cycles, revision loops, regulatory-review latency, re-crawl diagnostics, and scope ambiguities typical in healthcare content delivery. All figures are engagement-wide (12 weeks), not per week.
+
+### Workstream 1 — Foundation Fix (Weeks 1-4)
+
+| Activity | Role | Base hrs |
+|---|---|---|
+| Root page content spec + draft (~2,500 words) | Content | 15 |
+| Schema @graph design + port from /en-ae/dubai | Advisor + Eng | 10 |
+| Technical fixes (HSTS, Cache-Control, dateModified) | Engineering | 6 |
+| Staging build + cross-device QA | Engineering | 12 |
+| Production deploy + indexing requests (GSC, Bing) | Engineering | 4 |
+| Person schema (founder + medical director, DHA credentials) | Eng + Medical | 8 |
+| AggregateRating ↔ Trustpilot integration | Engineering | 10 |
+| Medical review of root + credential pages | Medical | 6 |
+| Advisor oversight + iteration | Advisor | 12 |
+| **Base subtotal** | | **83** |
+| **+ 30% buffer** | | **25** |
+| **Buffered total** | | **~108 hrs** |
+
+### Workstream 2 — Content + E-E-A-T (Weeks 4-10)
+
+| Activity | Role | Base hrs |
+|---|---|---|
+| Schema upgrades on top 10 city/service pages | Engineering | 18 |
+| 50 FAQ pairs (research, draft, SERP-sourced) | Content | 40 |
+| FAQ medical review | Medical | 12 |
+| FAQPage schema deployment | Engineering | 8 |
+| Top 5 city pages upgraded (competitive depth) | Content | 50 |
+| 2 comparison posts (research + draft) | Content | 16 |
+| Legal review of comparison posts | Legal | 4 |
+| 5-8 blog posts (medical-reviewed, primary sources) | Content | 40 |
+| Blog medical review | Medical | 10 |
+| Advisor content direction + QA | Advisor | 20 |
+| **Base subtotal** | | **218** |
+| **+ 30% buffer** | | **65** |
+| **Buffered total** | | **~283 hrs** |
+
+### Workstream 3 — Measurement + Competitive Intel + Paid Efficiency Audit (Ongoing, 12 weeks)
+
+| Activity | Role | Base hrs |
+|---|---|---|
+| Dashboard build (Airtable / Notion) | Advisor | 12 |
+| Baseline measurement setup (50 queries × 4 engines) | Advisor | 8 |
+| Weekly AI citation measurement ritual (3 hrs × 12) | Advisor | 36 |
+| Weekly competitor SERP + AI Overview tracking (2 hrs × 12) | Advisor | 24 |
+| Alert infrastructure (email / Telegram) | Advisor | 8 |
+| Competitive gap deep-dives (3 iterations) | Advisor | 15 |
+| AI-assisted keyword discovery | Advisor | 10 |
+| Paid ads audit reports (2 × 10 hrs) | Advisor | 20 |
+| Week 12 measurement audit + ROI write-up | Advisor | 15 |
+| Cross-workstream strategy alignment | Advisor | 10 |
+| **Base subtotal** | | **158** |
+| **+ 30% buffer** | | **47** |
+| **Buffered total** | | **~205 hrs** |
+
+### Engagement totals
+
+| Role | Base hrs | +30% buffer | Buffered total |
+|---|---|---|---|
+| Advisor (Arun) | ~180 | ~54 | **~234** |
+| Engineering (Valeo) | ~66 | ~20 | **~86** |
+| Content (Valeo) | ~161 | ~48 | **~209** |
+| Medical reviewer (Valeo) | ~28 | ~8 | **~36** |
+| Legal reviewer (Valeo) | ~4 | ~1 | **~5** |
+| Founder (Sundeep) | ~30 | ~9 | **~39** |
+| **All roles** | **~469** | **~140** | **~609 hrs** |
+
+Notes:
+- Advisor hours are the contracted scope; Valeo-side hours map to the Resource Commitments table above.
+- Buffer is drawn down only as consumed; unused buffer rolls to Phase 2 scope discussions.
+- If Week 1 baseline reveals different starting conditions than the audit implies, estimates are re-baselined before Week 3.
+
+---
+
 ## Pricing
 
 Pricing is intentionally deferred to the kickoff discussion. Three structures are possible:
