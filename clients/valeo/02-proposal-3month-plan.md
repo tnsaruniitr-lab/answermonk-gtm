@@ -68,8 +68,14 @@ This is the highest-confidence block of work in the engagement: the content, sch
 - **FAQ content clusters.** ~50 FAQ pairs across top pages, each sourced from observed SERP People-Also-Ask data and medical-reviewed. FAQPage schema on priority pages.
 - **Top 5 city/service pages upgraded** to competitive depth. (Reduced from 10 to 5 to protect against scope overload — additional pages deferred to Phase 2.)
 - **2 balanced comparison posts** (Valeo vs category alternatives). Legal review before publish.
+- **Founder-led community authority (compliance-native):**
+  - **Compliance playbook first** — Valeo-specific, medical + legal reviewed: what founders can say, what they can't, how to redirect medical-advice asks, disclosure templates. All community activity gated on this landing.
+  - **Quora.** Topic map of 15-20 high-intent UAE at-home healthcare questions. Founder-byline answer framework. Arun drafts and edits for AEO + compliance; Sundeep or Ritwik post under their real identity.
+  - **Reddit.** Subreddit map (r/Dubai, r/UAE, r/UAE_Expats, r/DubaiLife + 2-3 relevant health/wellness subs). ~2 founder posts/month under identified handles. Operational and category content (pricing transparency, logistics, patient experience) — **no medical advice in replies**; those redirect to consult booking.
+  - **Review expansion.** Google Business Profile + App Store review invitation campaigns, extending the Trustpilot invitation flow. Same compliance rules: post-service email, no incentivization, no gating.
+  - **Monthly community footprint audit** — mentions, sentiment, response coordination (Ritwik owns responses; Arun coordinates).
 
-**Deferred to Phase 2 (explicit):** brand-aware blog writer automation (full pipeline build), Arabic content parity, press outreach at scale, Reddit/Quora participation, additional city-page depth beyond the top 5, Telegram alerts. These are material workstreams and should be scoped separately with their own compliance + capacity review.
+**Deferred to Phase 2 (explicit):** brand-aware blog writer automation (full pipeline build), Arabic content parity, press outreach at scale, additional city-page depth beyond the top 5, Telegram alerts. These are material workstreams and should be scoped separately with their own compliance + capacity review.
 
 ### Workstream 3 — Measurement + Competitive Intel + Paid Efficiency Audit (Weeks 1-16)
 - **AI citation tracking.** 50 canonical queries × 4 engines. Weekly in Weeks 1-5 (to catch re-crawl impact after foundation ship), bi-weekly Weeks 6-16.
@@ -123,7 +129,12 @@ Service descriptions, outcome statements, pricing, and clinical procedure refere
 Valeo vs competitor content goes through legal review before publish. Claims are factual, sourced, and balanced (pros + cons for each entity). No hit-piece framing (Google actively deindexes these in healthcare contexts).
 
 ### Community engagement (Reddit / Quora / forums)
-Explicitly deferred to Phase 2. Healthcare brands face disclosure obligations and reputational exposure on these surfaces. Not in scope for this engagement.
+In scope, **compliance-native**. Governed by a dedicated Valeo community playbook (medical + legal reviewed) before any posting. Non-negotiables:
+- Founders (Sundeep / Ritwik) post under their real identified accounts. No anonymous accounts, no astroturfing, no incentivized third-party posting.
+- No medical, diagnostic, or therapeutic advice in free-form replies. Those get redirected to consult booking.
+- Operational / category / patient-experience content only (pricing transparency, logistics, service quality, UAE healthcare context).
+- All Quora and Reddit content flows through the same medical + legal review gate as on-site content.
+- Weekly monitoring for user-generated health questions addressed to Valeo; responses coordinated with the medical team.
 
 ### Approval ownership
 Sundeep (or delegated approver) is the single point of approval for: final content publish, schema deploys touching medical claims, comparison content, review collection campaigns, and any public statement referencing clinical outcomes.
@@ -143,20 +154,20 @@ Cadence: Monday analysis → Tuesday-Thursday execution → Friday measurement +
 - **W4:** Founder + medical director Person schema live with DHA credentials. Visible DHA license on root. AggregateRating connected to real Trustpilot data. Sieve brain integration hooked — first automated re-audit of Valeo pages against current rules.
 - **W5:** Sieve-driven drift alerts operational. Competitive change detection live (weekly competitor page-diff). **Week 5 decision gate.**
 
-### Weeks 6-8 — Schema Depth + FAQ + Content Automation
-- **W6:** Schema upgrades across top 10 city/service pages (LocalBusiness + MedicalBusiness + BreadcrumbList). Schema drift validator running.
-- **W7:** ~50 FAQ pairs written (PAA-sourced), medical-reviewed, deployed with FAQPage schema across priority pages. Content recency triggers live (page age, dead-link scan, E-E-A-T missing signals).
-- **W8:** First competitive gap deep-dive report (delivered via dashboard).
+### Weeks 6-8 — Schema Depth + FAQ + Content Automation + Community Playbook
+- **W6:** Schema upgrades across top 10 city/service pages (LocalBusiness + MedicalBusiness + BreadcrumbList). Schema drift validator running. **Community compliance playbook drafted + legal/medical reviewed.**
+- **W7:** ~50 FAQ pairs written (PAA-sourced), medical-reviewed, deployed with FAQPage schema across priority pages. Content recency triggers live. **Quora topic map + first 5 founder-byline answer frameworks drafted.**
+- **W8:** First competitive gap deep-dive. **First 5 Quora answers posted (Sundeep/Ritwik byline). Reddit subreddit map + first founder post framework ready.**
 
-### Weeks 9-11 — Content Depth + Comparison + First Audit
-- **W9:** Top 5 city pages upgraded to competitive depth.
-- **W10:** 2 comparison posts (legal-reviewed) shipped. **First paid ads audit report** delivered to marketing team. **Week 10 decision gate.**
-- **W11:** 2-3 blog posts shipped (medical-reviewed, primary-source citations). Second competitive gap deep-dive.
+### Weeks 9-11 — Content Depth + Comparison + Community Cadence + First Audit
+- **W9:** Top 5 city pages upgraded to competitive depth. **First Reddit post live (founder-identified). 5 more Quora answers posted. Google Business Profile review invitation flow live.**
+- **W10:** 2 comparison posts (legal-reviewed) shipped. **First paid ads audit report** delivered to marketing team. **First monthly community footprint audit.** **Week 10 decision gate.**
+- **W11:** 2-3 blog posts shipped (medical-reviewed, primary-source citations). Second competitive gap deep-dive. **Second Reddit post. 5 more Quora answers. App Store review invitation flow live.**
 
-### Weeks 12-14 — Blog Velocity + Authority Signals
-- **W12:** 3 blog posts. Dashboard refinement based on Ritwik + founder feedback (3-week usage).
-- **W13:** 2-3 blog posts. Trustpilot review invitation (compliant — post-service email, no incentivization).
-- **W14:** 2 blog posts. Third competitive gap deep-dive. Content recency queue cleared.
+### Weeks 12-14 — Blog Velocity + Authority Signals + Community Cadence
+- **W12:** 3 blog posts. Dashboard refinement based on Ritwik + founder feedback (3-week usage). **Third Reddit post. Second monthly community footprint audit.**
+- **W13:** 2-3 blog posts. Trustpilot review invitation wave (compliant). **5 more Quora answers.**
+- **W14:** 2 blog posts. Third competitive gap deep-dive. Content recency queue cleared. **Fourth Reddit post.**
 
 ### Weeks 15-16 — Measurement + Handover
 - **W15:** Full re-audit via Sieve brain against latest rules (captures any rule drift during engagement). AI-assisted keyword discovery pass 3 — input to Q2 scope.
@@ -245,9 +256,11 @@ If capacity is lower than the table, scope reduces proportionally. This is a mea
 | Strategy calls + iteration |
 | **Total: ~61 hrs (with 30% buffer)** |
 
-### Workstream 2 — Content + E-E-A-T (Weeks 4-10)
+### Workstream 2 — Content + E-E-A-T + Founder Community Authority (Weeks 4-14)
 
-Frameworks + templates approach. Valeo's content team executes against the frameworks. Brand-aware blog writer automation (full pipeline) deferred to Phase 2.
+Frameworks + templates approach for on-site content. Founder-led, compliance-native community engagement for off-site authority. Brand-aware blog writer automation (full pipeline) deferred to Phase 2.
+
+**On-site content + E-E-A-T:**
 
 | Activity |
 |---|
@@ -259,7 +272,18 @@ Frameworks + templates approach. Valeo's content team executes against the frame
 | E-E-A-T audit (medical authority surfacing across site) |
 | Schema consistency QA across 10+ pages |
 | Content iteration + medical-review coordination |
-| **Total: ~68 hrs (with 30% buffer)** |
+
+**Founder-led community authority:**
+
+| Activity |
+|---|
+| Community compliance playbook (Valeo-specific, medical + legal reviewed) |
+| Quora topic map + 15-20 founder-byline answer frameworks + editing pass |
+| Reddit subreddit map + monthly post frameworks (~2 posts/month × 4 months) + editing pass |
+| Google Business Profile + App Store review invitation flows (extend Trustpilot pattern) |
+| Monthly community footprint audits + response coordination |
+
+**Total: ~118 hrs (with 30% buffer)**
 
 ### Workstream 3 — Measurement + Competitive Intel + Paid Audit (Weeks 1-16)
 
@@ -309,26 +333,26 @@ Founder Live Dashboard, Sieve brain integration, schema drift + content recency 
 | Workstream | Total hrs (with 30% buffer) |
 |---|---|
 | WS1 — Foundation Fix | ~61 |
-| WS2 — Content + E-E-A-T | ~68 |
+| WS2 — Content + E-E-A-T + Founder Community Authority | ~118 |
 | WS3 — Measurement + Intel + Paid Audit | ~140 |
 | WS4 — Always-On Intelligence (Dashboard + Sieve + automation) | ~95 |
-| **Operator total (Arun)** | **~364 hrs** |
+| **Operator total (Arun)** | **~414 hrs** |
 
-**Weekly load profile** (~23 hrs/week average over 16 weeks):
+**Weekly load profile** (~26 hrs/week average over 16 weeks):
 
 | Phase | Weeks | Avg hrs/week |
 |---|---|---|
-| Foundation + dashboard + Sieve integration build | W1-5 | ~26 |
-| Schema + FAQ + automation operational | W6-8 | ~24 |
-| Content depth + first paid audit + deep-dives | W9-11 | ~22 |
-| Content velocity + dashboard refinement | W12-14 | ~21 |
-| Close + re-audit + handover | W15-16 | ~19 |
+| Foundation + dashboard + Sieve integration build | W1-5 | ~28 |
+| Schema + FAQ + community playbook + automation operational | W6-8 | ~27 |
+| Content depth + community posting + first paid audit | W9-11 | ~26 |
+| Content velocity + dashboard refinement + community cadence | W12-14 | ~24 |
+| Close + re-audit + handover | W15-16 | ~21 |
 
 Notes:
 - Buffer is drawn down only as consumed; unused buffer rolls into Phase 2 scope discussions.
 - If Week 1 baseline reveals materially different starting conditions, estimates are re-baselined before Week 3.
 - WS4 infrastructure is built to outlive the engagement — Ritwik owns it post-W16 with the alert loop continuing to surface content + competitor + rule-change drift.
-- **Deferred to Phase 2** (explicit, scoped separately): brand-aware blog writer pipeline build, Telegram alert infrastructure, Arabic content parity, press outreach at scale, Reddit/Quora.
+- **Deferred to Phase 2** (explicit, scoped separately): brand-aware blog writer pipeline build, Telegram alert infrastructure, Arabic content parity, press outreach at scale, additional city pages beyond top 5.
 
 ---
 
@@ -395,7 +419,7 @@ Outcome scenarios:
 2. **Analysis-grounded.** Every fix traces to a specific finding in the April 14 analysis.
 3. **Compliance-native.** Medical review, DHA adherence, YMYL standards, and review-collection TOS are in the workflow, not added after.
 4. **Conditional framing.** Outcomes are target scenarios with explicit dependencies — not commitments.
-5. **Focused scope.** 4 workstreams. Arabic, press at scale, Reddit/Quora explicitly deferred to Phase 2.
+5. **Focused scope.** 4 workstreams. Arabic, press at scale, and the full blog writer automation pipeline explicitly deferred to Phase 2. Community engagement is in scope but gated by a compliance playbook, not ad-hoc.
 6. **Paid ads stays with marketing team.** We audit efficiency; we do not duplicate execution.
 7. **Compounding infrastructure.** WS4 (dashboard + Sieve integration + drift detection) outlives the engagement — Valeo keeps re-auditing against evolving LLM/SEO rules without continued operator time.
 8. **Evidence over assertion.** Directional claims labeled as directional. Unmeasured values labeled as unmeasured.
