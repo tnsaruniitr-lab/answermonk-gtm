@@ -60,7 +60,15 @@ Scores and signals referenced here are drawn from the April 14 analysis (98 chec
 ### Workstream 1 — Foundation Fix (Weeks 1-5)
 Rebuild the root page so AI engines can extract substantive content from it. Port the existing schema pattern from `/en-ae/dubai` to root. Address technical hygiene items from the analysis (dynamic `dateModified`, missing HSTS, aggressive Cache-Control).
 
-This is the highest-confidence block of work in the engagement: the content, schema, and topical depth already exist on the site and are being relocated, not invented. Extraction checks are expected to move materially upward post-deploy (exact magnitude to be measured). Actual impact on AI citations will depend on AI engine re-crawl cadence (commonly 7-21 days for major engines) and will be assessed in Weeks 5-10.
+Starts with a **pre-build technical audit + alignment check** against the latest official standards:
+- Current HTML structure vs target plan: element-level gap analysis across priority URLs
+- Schema.org validation of every intended schema block (Organization, MedicalBusiness, LocalBusiness, Person, FAQPage, AggregateRating, BreadcrumbList) against current schema.org spec
+- Google Search Central + Structured Data Guidelines alignment check (including YMYL, E-E-A-T, Helpful Content signals)
+- Bot crawl visibility audit: robots.txt, user-agent response differentials (Googlebot, GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bingbot), SSR vs CSR behavior, JS rendering impact on extraction, llms.txt presence + compliance
+- Extractability scoring across top 20+ URLs (not just root): first-paint content, heading hierarchy, canonical alignment, accessible word count
+- Consolidated misalignment report with specific changes required before W3 deploy
+
+This is the highest-confidence block of work in the engagement: the content, schema, and topical depth already exist on the site and are being relocated, not invented. The pre-build audit de-risks the relocation. Extraction checks are expected to move materially upward post-deploy (exact magnitude to be measured). Actual impact on AI citations will depend on AI engine re-crawl cadence (commonly 7-21 days for major engines) and will be assessed in Weeks 5-10.
 
 ### Workstream 2 — Content + E-E-A-T (Weeks 5-13)
 - **Medical authority signals.** Founder and medical director Person schema with DHA credentials; visible DHA license display; medical director byline on health content. Standard E-E-A-T requirements for YMYL healthcare content.
@@ -145,9 +153,10 @@ Sundeep (or delegated approver) is the single point of approval for: final conte
 
 Cadence: Monday analysis → Tuesday-Thursday execution → Friday measurement + report.
 
-### Weeks 1-2 — Baseline + Foundation Scope + Intel Groundwork
-- **W1:** Kickoff. Run baseline measurement (50 queries × 4 engines). Lock content spec for new root page. Identify medical director for Person schema. Founder Live Dashboard wireframe + data-source inventory (WS4 begins). **Pricing + target ranges finalized after baseline lands.**
-- **W2:** Build new root page in staging. Content team drafts ~2,500 words with medical team review. Schema @graph drafted. Sieve brain integration scoped (rules to continuously check Valeo against).
+### Weeks 1-2 — Baseline + Pre-Build Technical Audit + Foundation Scope
+- **W1:** Kickoff. Run baseline measurement (50 queries × 4 engines). Identify medical director for Person schema. Founder Live Dashboard wireframe + data-source inventory (WS4 begins). **Pricing + target ranges finalized after baseline lands.**
+- **W1-W2:** **Pre-build technical audit & alignment check** — current HTML vs target plan, Schema.org validation against current spec, Google Search Central guidelines alignment, bot crawl visibility differentials (Googlebot / GPTBot / ClaudeBot / PerplexityBot / Google-Extended), SSR/CSR rendering tests across priority URLs, llms.txt review, extractability scoring on top 20+ URLs. Deliverable: **Technical Alignment Report** to Ritwik + Sundeep before content commit.
+- **W2:** Lock content spec for new root page based on audit findings. Build root page in staging. Content team drafts ~2,500 words with medical team review. Schema @graph drafted to audit-validated spec. Sieve brain integration scoped (rules to continuously check Valeo against).
 
 ### Weeks 3-5 — Ship Foundation + Credentials + Dashboard v1
 - **W3:** Production deploy of new root page. Technical fixes ship (HSTS, Cache-Control, `dateModified`). GSC + Bing re-indexing requested. Founder Dashboard v1 live (read-only).
@@ -242,19 +251,20 @@ If capacity is lower than the table, scope reduces proportionally. This is a mea
 
 **Arun's hours only** (scope + build + run) — the contracted commitment. Valeo-side hours are separate (see Resource Commitments). All totals include a **30% buffer** for review cycles, regulatory-review latency, re-crawl diagnostics, and healthcare-specific rework.
 
-### Workstream 1 — Foundation Fix (Weeks 1-4)
+### Workstream 1 — Foundation Fix (Weeks 1-5)
 
 | Activity |
 |---|
+| **Pre-build technical audit & alignment check** (Weeks 1-2): current HTML vs target plan, Schema.org validation, Google Search Central + structured data guidelines alignment, bot crawl visibility differentials (Googlebot / GPTBot / ClaudeBot / PerplexityBot / Google-Extended), SSR vs CSR rendering tests, llms.txt review, extractability scoring across top 20+ URLs — deliverable: Technical Alignment Report |
 | Root page content spec + structure (~2,500 words, medical-reviewed brief) |
-| Schema @graph design (port + enhance from /en-ae/dubai) |
+| Schema @graph design (port + enhance from /en-ae/dubai, audit-validated) |
 | Technical fix spec + engineering handoff (HSTS, Cache-Control, dateModified) |
 | Staging review + pre-deploy QA across AI crawler user agents |
 | Post-deploy AI crawl validation + re-index tracking |
 | Person schema spec (founder + medical director, DHA credential display) |
 | AggregateRating ↔ Trustpilot integration spec + TOS compliance review |
 | Strategy calls + iteration |
-| **Total: ~61 hrs (with 30% buffer)** |
+| **Total: ~79 hrs (with 30% buffer)** |
 
 ### Workstream 2 — Content + E-E-A-T + Founder Community Authority (Weeks 4-14)
 
@@ -332,18 +342,18 @@ Founder Live Dashboard, Sieve brain integration, schema drift + content recency 
 
 | Workstream | Total hrs (with 30% buffer) |
 |---|---|
-| WS1 — Foundation Fix | ~61 |
+| WS1 — Foundation Fix (incl. pre-build technical audit) | ~79 |
 | WS2 — Content + E-E-A-T + Founder Community Authority | ~118 |
 | WS3 — Measurement + Intel + Paid Audit | ~140 |
 | WS4 — Always-On Intelligence (Dashboard + Sieve + automation) | ~95 |
-| **Operator total (Arun)** | **~414 hrs** |
+| **Operator total (Arun)** | **~432 hrs** |
 
-**Weekly load profile** (~26 hrs/week average over 16 weeks):
+**Weekly load profile** (~27 hrs/week average over 16 weeks):
 
 | Phase | Weeks | Avg hrs/week |
 |---|---|---|
-| Foundation + dashboard + Sieve integration build | W1-5 | ~28 |
-| Schema + FAQ + community playbook + automation operational | W6-8 | ~27 |
+| Pre-build audit + foundation + dashboard + Sieve build | W1-5 | ~30 |
+| Schema + FAQ + community playbook + automation operational | W6-8 | ~28 |
 | Content depth + community posting + first paid audit | W9-11 | ~26 |
 | Content velocity + dashboard refinement + community cadence | W12-14 | ~24 |
 | Close + re-audit + handover | W15-16 | ~21 |
