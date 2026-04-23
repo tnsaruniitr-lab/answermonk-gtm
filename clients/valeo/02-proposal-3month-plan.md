@@ -1,8 +1,8 @@
-# Scope Draft: Valeo Health AI Visibility + Organic Growth (12 Weeks)
+# Scope Draft: Valeo Health AI Visibility + Organic Growth (16 Weeks / 4 Months)
 
 **For:** Sundeep, Valeo Health (feelvaleo.com)
 **Date:** 2026-04-23
-**Duration:** 12 weeks, starting week of 2026-04-28
+**Duration:** 16 weeks (4 months), starting week of 2026-04-28
 **Status:** Scope draft for discussion — pricing, resourcing, and final targets to be agreed in kickoff call
 **Basis:** SEO + AEO + GEO analysis of feelvaleo.com, 2026-04-14
 
@@ -14,7 +14,7 @@ Valeo ranks in the top results on Google for high-intent at-home healthcare quer
 
 The same analysis surfaced a specific architectural constraint: the canonical root page (`feelvaleo.com`) serves ~106 words of language/country splash content, while the substantive service content (~2,677 words) lives at `/en-ae/dubai`. This structure *may limit* what AI engines can extract when they fetch the root URL — which is typically the most-crawled and most-cited URL for a brand. Whether this is the dominant constraint on AI appearance, or one of several, will be validated through the baseline measurement described below.
 
-The intent of this engagement is to close the extraction gap, improve page-level citation readiness, and test whether existing brand authority can be converted into measurable AI citations and incremental organic traffic over a 12-week window.
+The intent of this engagement is to close the extraction gap, improve page-level citation readiness, and test whether existing brand authority can be converted into measurable AI citations and incremental organic traffic over a 16-week (4-month) window.
 
 ---
 
@@ -41,30 +41,42 @@ Scores and signals referenced here are drawn from the April 14 analysis (98 chec
 
 ---
 
-## Scope: 3 Workstreams
+## Scope: 4 Workstreams
 
-### Workstream 1 — Foundation Fix (Weeks 1-4)
+### Workstream 1 — Foundation Fix (Weeks 1-5)
 Rebuild the root page so AI engines can extract substantive content from it. Port the existing schema pattern from `/en-ae/dubai` to root. Address technical hygiene items from the analysis (dynamic `dateModified`, missing HSTS, aggressive Cache-Control).
 
-This is the highest-confidence block of work in the engagement: the content, schema, and topical depth already exist on the site and are being relocated, not invented. Extraction checks are expected to move materially upward post-deploy (exact magnitude to be measured). Actual impact on AI citations will depend on AI engine re-crawl cadence (commonly 7-21 days for major engines) and will be assessed in Weeks 4-8.
+This is the highest-confidence block of work in the engagement: the content, schema, and topical depth already exist on the site and are being relocated, not invented. Extraction checks are expected to move materially upward post-deploy (exact magnitude to be measured). Actual impact on AI citations will depend on AI engine re-crawl cadence (commonly 7-21 days for major engines) and will be assessed in Weeks 5-10.
 
-### Workstream 2 — Content + E-E-A-T (Weeks 4-10)
+### Workstream 2 — Content + E-E-A-T (Weeks 5-13)
 - **Medical authority signals.** Founder and medical director Person schema with DHA credentials; visible DHA license display; medical director byline on health content. Standard E-E-A-T requirements for YMYL healthcare content.
 - **AggregateRating integration.** Connect verified Trustpilot review data to Organization + MedicalBusiness schema, consistent with Google's structured data guidelines and Trustpilot's platform TOS. No incentivized generation, no gating, no fabrication.
 - **FAQ content clusters.** ~50 FAQ pairs across top pages, each sourced from observed SERP People-Also-Ask data and medical-reviewed. FAQPage schema on priority pages.
 - **Top 5 city/service pages upgraded** to competitive depth. (Reduced from 10 to 5 to protect against scope overload — additional pages deferred to Phase 2.)
 - **2 balanced comparison posts** (Valeo vs category alternatives). Legal review before publish.
 
-**Deferred to Phase 2 (explicit):** brand-aware blog writer automation (full pipeline build), Arabic content parity, press outreach at scale, Reddit/Quora participation, additional city-page depth beyond the top 5. These are material workstreams and should be scoped separately with their own compliance + capacity review.
+**Deferred to Phase 2 (explicit):** brand-aware blog writer automation (full pipeline build), Arabic content parity, press outreach at scale, Reddit/Quora participation, additional city-page depth beyond the top 5, Telegram alerts. These are material workstreams and should be scoped separately with their own compliance + capacity review.
 
-### Workstream 3 — Measurement + Competitive Intel + Paid Efficiency Audit (Weeks 1-12)
-- **AI citation tracking.** 50 canonical queries × 4 engines. Weekly in Weeks 1-4 (to catch re-crawl impact after foundation ship), bi-weekly Weeks 5-12.
+### Workstream 3 — Measurement + Competitive Intel + Paid Efficiency Audit (Weeks 1-16)
+- **AI citation tracking.** 50 canonical queries × 4 engines. Weekly in Weeks 1-5 (to catch re-crawl impact after foundation ship), bi-weekly Weeks 6-16.
 - **SERP + AI Overview monitoring** on ~30 priority queries, same cadence.
-- **Competitive gap analysis.** 2 deep-dives during the engagement — where competitors are cited that Valeo isn't, and what content/schema appears to drive the gap.
-- **AI-assisted keyword discovery.** Surface real user phrasing via ChatGPT/Claude/Perplexity probing.
+- **Competitive gap analysis.** 3 deep-dives during the engagement — where competitors are cited that Valeo isn't, and what content/schema appears to drive the gap.
+- **AI-assisted keyword discovery.** Surface real user phrasing via ChatGPT/Claude/Perplexity probing (passes at Weeks 4, 10, and 15).
 - **Email alert infrastructure** on material changes — competitor rank shifts, new AI Overview triggers, review volume movements. (Telegram deferred to Phase 2.)
-- **Paid efficiency audit (advisory only — no execution).** 2 audit reports (Week 8, Week 12) of Google Ads / Meta campaigns run by Valeo's marketing team: keyword-to-landing-page alignment, Quality Score drivers, attribution gaps, organic cannibalization, conversion tracking, negative keyword coverage, ad-copy vs landing-page consistency. Marketing team owns execution.
-- **Dashboard** (Airtable or Notion): single view of AI appearance signals, SERP rank, organic traffic, referring domains, and paid metrics shared by the marketing team.
+- **Paid efficiency audit (advisory only — no execution).** 2 audit reports (Week 10, Week 16) of Google Ads / Meta campaigns run by Valeo's marketing team: keyword-to-landing-page alignment, Quality Score drivers, attribution gaps, organic cannibalization, conversion tracking, negative keyword coverage, ad-copy vs landing-page consistency. Marketing team owns execution.
+- **Measurement dashboard** surfaces into the Founder Live View built in WS4 (shared single source of truth).
+
+### Workstream 4 — Always-On Intelligence (Weeks 2-16)
+
+Continuous intelligence layer — the single source of truth Ritwik and Sundeep open any day of the week. Turns the engagement from periodic-report advisory into a living system.
+
+- **Founder Live Dashboard.** Single view (Airtable or Retool) of AI appearance rate, SERP rank, organic traffic, Valeo vs competitor citation gap, content health (freshness + schema coverage), paid metrics. Always-current; no waiting for Friday reports.
+- **Sieve brain integration.** Valeo pages continuously re-audited against the latest extracted rules in Sieve's brain (principles, playbooks, anti-patterns). When LLM / SEO / AEO rules shift (Google docs, OpenAI guidance, Perplexity changes), Valeo's pages get re-checked against the new standard and drift is flagged.
+- **Schema drift + validator automation.** Weekly scan across top 20+ pages. Alerts when Trustpilot schema breaks, medical director credentials desync, FAQPage schema drops, or dateModified goes stale.
+- **Content recency triggers.** Pages flagged when (a) unreviewed >90 days, (b) primary-source citations go dead, (c) E-E-A-T signals (author credential, med review byline) missing, (d) internal links break. Queue feeds directly into Ritwik's weekly review.
+- **Competitive change detection.** Weekly competitor page-diff + schema-diff + new-page detection. AI Overview trigger changes tracked per query. Alerts surface the specific deltas, not aggregate scores.
+
+**Why this deserves its own workstream:** the deliverable is not a report; it is infrastructure. Once live, it keeps checking the site forever against evolving LLM/SEO standards. This is the compounding layer — everything else is one-off.
 
 ---
 
@@ -104,33 +116,37 @@ Sundeep (or delegated approver) is the single point of approval for: final conte
 
 ---
 
-## 12-Week Calendar
+## 16-Week Calendar
 
 Cadence: Monday analysis → Tuesday-Thursday execution → Friday measurement + report.
 
-### Weeks 1-2 — Baseline + Foundation Scope
-- **W1:** Kickoff. Run baseline measurement (50 queries × 4 engines). Set up intel dashboard. Lock content spec for new root page. Identify medical director for Person schema. **Pricing + target ranges finalized after baseline lands.**
-- **W2:** Build new root page in staging. Content team drafts ~2,500 words with medical team review. Schema @graph drafted.
+### Weeks 1-2 — Baseline + Foundation Scope + Intel Groundwork
+- **W1:** Kickoff. Run baseline measurement (50 queries × 4 engines). Lock content spec for new root page. Identify medical director for Person schema. Founder Live Dashboard wireframe + data-source inventory (WS4 begins). **Pricing + target ranges finalized after baseline lands.**
+- **W2:** Build new root page in staging. Content team drafts ~2,500 words with medical team review. Schema @graph drafted. Sieve brain integration scoped (rules to continuously check Valeo against).
 
-### Weeks 3-4 — Ship Foundation + Credentials
-- **W3:** Production deploy of new root page. Technical fixes ship (HSTS, Cache-Control, `dateModified`). GSC + Bing re-indexing requested.
-- **W4:** Founder + medical director Person schema live with DHA credentials. Visible DHA license on root. AggregateRating connected to real Trustpilot data.
+### Weeks 3-5 — Ship Foundation + Credentials + Dashboard v1
+- **W3:** Production deploy of new root page. Technical fixes ship (HSTS, Cache-Control, `dateModified`). GSC + Bing re-indexing requested. Founder Dashboard v1 live (read-only).
+- **W4:** Founder + medical director Person schema live with DHA credentials. Visible DHA license on root. AggregateRating connected to real Trustpilot data. Sieve brain integration hooked — first automated re-audit of Valeo pages against current rules.
+- **W5:** Sieve-driven drift alerts operational. Competitive change detection live (weekly competitor page-diff). **Week 5 decision gate.**
 
-### Weeks 5-6 — Schema Depth + FAQ
-- **W5:** Schema upgrades across top 10 city/service pages (LocalBusiness + MedicalBusiness + BreadcrumbList).
-- **W6:** ~50 FAQ pairs written (PAA-sourced), medical-reviewed, deployed with FAQPage schema across priority pages.
+### Weeks 6-8 — Schema Depth + FAQ + Content Automation
+- **W6:** Schema upgrades across top 10 city/service pages (LocalBusiness + MedicalBusiness + BreadcrumbList). Schema drift validator running.
+- **W7:** ~50 FAQ pairs written (PAA-sourced), medical-reviewed, deployed with FAQPage schema across priority pages. Content recency triggers live (page age, dead-link scan, E-E-A-T missing signals).
+- **W8:** First competitive gap deep-dive report (delivered via dashboard).
 
-### Weeks 7-8 — Content Depth + Comparison
-- **W7:** Top 5 city pages upgraded to competitive depth. **First paid ads audit report** delivered to marketing team.
-- **W8:** 2 comparison posts (legal-reviewed) shipped.
+### Weeks 9-11 — Content Depth + Comparison + First Audit
+- **W9:** Top 5 city pages upgraded to competitive depth.
+- **W10:** 2 comparison posts (legal-reviewed) shipped. **First paid ads audit report** delivered to marketing team. **Week 10 decision gate.**
+- **W11:** 2-3 blog posts shipped (medical-reviewed, primary-source citations). Second competitive gap deep-dive.
 
-### Weeks 9-10 — Blog + Authority
-- **W9:** 3-5 blog posts shipped (medical-reviewed, primary-source citations).
-- **W10:** 2-3 more blog posts. **Second paid ads audit report.**
+### Weeks 12-14 — Blog Velocity + Authority Signals
+- **W12:** 3 blog posts. Dashboard refinement based on Ritwik + founder feedback (3-week usage).
+- **W13:** 2-3 blog posts. Trustpilot review invitation (compliant — post-service email, no incentivization).
+- **W14:** 2 blog posts. Third competitive gap deep-dive. Content recency queue cleared.
 
-### Weeks 11-12 — Measurement + Handover
-- **W11:** Trustpilot review invitation (compliant — post-service email, no incentivization).
-- **W12:** 12-week measurement audit. Results review. Q2 scope recommendations. Dashboard + intel handover.
+### Weeks 15-16 — Measurement + Handover
+- **W15:** Full re-audit via Sieve brain against latest rules (captures any rule drift during engagement). AI-assisted keyword discovery pass 3 — input to Q2 scope.
+- **W16:** 16-week measurement audit. **Second paid ads audit report.** Results review. Q2 scope recommendations. Dashboard + intel fully handed over to Ritwik as ongoing owner. **Week 16 decision gate.**
 
 ---
 
@@ -138,17 +154,17 @@ Cadence: Monday analysis → Tuesday-Thursday execution → Friday measurement +
 
 All outcomes are **target scenarios** — illustrative ranges, subject to (a) baseline validation in Week 1 and (b) the execution and external dependencies listed in the next section. These are not guarantees.
 
-| Dimension | Week 0 | Scenario: Conservative | Scenario: Upside |
+| Dimension | Week 0 | Scenario: Conservative (Week 16) | Scenario: Upside (Week 16) |
 |---|---|---|---|
-| AI citation rate (50 queries × 4 engines) | Measured Week 1 | +2-3x baseline | +5-10x baseline |
-| Page Citation Readiness (analysis score) | 55% | 75-80% | 85%+ |
-| Organic traffic (total sessions) | Measured Week 1 | +20-30% | +40-60% |
+| AI citation rate (50 queries × 4 engines) | Measured Week 1 | +3-5x baseline | +7-12x baseline |
+| Page Citation Readiness (analysis score) | 55% | 80-85% | 88%+ |
+| Organic traffic (total sessions) | Measured Week 1 | +30-40% | +50-70% |
 | Branded search trend (GSC brand-term impressions) | Measured Week 1 | Trending up | Clear step-change |
-| Featured snippets captured | Not measured | 2-5 new | 5-10 new |
+| Featured snippets captured | Not measured | 3-7 new | 7-12 new |
 | Schema depth (pages with MedicalBusiness + FAQPage) | Low | 15+ pages | 20+ pages |
 | FAQ pairs live | 0 | 40-50 pairs | 50+ pairs |
-| Referring domains | Measured Week 1 | +5-15 new | +15-30 new |
-| Competitive intel dashboard | None | Live + weekly refresh | Live + alerts operational |
+| Referring domains | Measured Week 1 | +8-18 new | +18-35 new |
+| Founder Live Dashboard + Sieve re-audit | None | Live + weekly re-audit | Live + alert loop operational |
 | Paid ads audit reports | None | 2 reports delivered | 2 reports + adopted changes |
 
 Concrete target ranges (replacing "conservative / upside") will be set after Week 1 baseline.
@@ -159,10 +175,10 @@ Concrete target ranges (replacing "conservative / upside") will be set after Wee
 
 Targets assume these conditions hold:
 
-- Engineering capacity as committed (20-25 hrs/week Weeks 2-5; 10-15 hrs/week after)
+- Engineering capacity as committed (20-25 hrs/week Weeks 2-6; 10-15 hrs/week after)
 - Medical reviewer availability at a 48-hour content-approval SLA
 - Legal review availability for comparison + regulatory-adjacent content (3-5 hrs total)
-- Content team capacity (~20 hrs/week) during Weeks 6-10
+- Content team capacity (~20 hrs/week) during Weeks 7-14
 - Sundeep availability: ~3 hrs/week for strategic alignment + approvals
 - Marketing team willingness to share paid ad account access for the audit layer
 - No major Google or AI engine algorithm changes during engagement
@@ -184,12 +200,13 @@ If any of these change materially, scope and targets are renegotiated.
 
 ## Resource Commitments (Valeo side)
 
-| Role | Weeks 1-5 | Weeks 6-12 |
+| Role | Weeks 1-6 | Weeks 7-16 |
 |---|---|---|
-| Engineering | 20-25 hrs/week | 10-15 hrs/week |
-| Content team | 5 hrs/week | 20 hrs/week |
+| Engineering | 20-25 hrs/week | 8-12 hrs/week |
+| Content team | 5 hrs/week | 18-22 hrs/week |
 | Medical reviewer | 3-5 hrs/week | 3-5 hrs/week |
 | Legal reviewer | 2-3 hrs total | 2-3 hrs total |
+| Ritwik (co-owner) | 4-6 hrs/week | 4-6 hrs/week |
 | Sundeep (founder) | 3-4 hrs/week | 2-3 hrs/week |
 
 If capacity is lower than the table, scope reduces proportionally. This is a meaningful client-side commitment and should be confirmed before kickoff.
@@ -230,9 +247,9 @@ Frameworks + templates approach. Valeo's content team executes against the frame
 | Content iteration + medical-review coordination |
 | **Total: ~68 hrs (with 30% buffer)** |
 
-### Workstream 3 — Measurement Infrastructure + Competitive Intel + Paid Audit (Weeks 1-12)
+### Workstream 3 — Measurement + Competitive Intel + Paid Audit (Weeks 1-16)
 
-Lightweight build (spreadsheet-driven measurement, email alerts, Airtable dashboard). Full Telegram alerts + full scraper pipeline deferred to Phase 2.
+Lightweight measurement ops feeding into the WS4 Founder Live Dashboard. Full Telegram alerts + full scraper pipeline deferred to Phase 2.
 
 **Build phase (Weeks 1-3):**
 
@@ -242,21 +259,36 @@ Lightweight build (spreadsheet-driven measurement, email alerts, Airtable dashbo
 | Lightweight competitive intel setup (4 competitors, semi-manual weekly check) |
 | AI citation tracking (spreadsheet + prompts, not full pipeline) |
 | Email alert rules + routing |
-| Dashboard (Airtable, views + rollups) |
 
-**Run phase (Weeks 2-12):**
+**Run phase (Weeks 2-16):**
 
 | Activity |
 |---|
-| Weekly measurement Weeks 1-4 (post-foundation re-crawl window), bi-weekly Weeks 5-12 |
+| Weekly measurement Weeks 1-5, bi-weekly Weeks 6-16 |
 | Competitor SERP + AI Overview tracking (same cadence) |
-| 2 competitive gap deep-dive analyses |
-| AI-assisted keyword discovery (1 pass Week 3, 1 pass Week 9) |
-| 2 paid efficiency audit reports (Week 8, Week 12) |
-| Week 12 measurement audit + ROI write-up + Q2 scope |
+| 3 competitive gap deep-dives (Weeks 8, 11, 14) |
+| AI-assisted keyword discovery (passes at W4, W10, W15) |
+| 2 paid efficiency audit reports (W10, W16) |
+| W16 measurement audit + ROI write-up + Q2 scope |
 | Cross-workstream strategy alignment + Friday reports |
 
-**Total: ~126 hrs (with 30% buffer)**
+**Total: ~140 hrs (with 30% buffer)**
+
+### Workstream 4 — Always-On Intelligence (Weeks 2-16)
+
+Founder Live Dashboard, Sieve brain integration, schema drift + content recency automation, competitive change detection. The compounding infrastructure layer.
+
+| Activity |
+|---|
+| Founder Live Dashboard build (multi-panel: appearance, rank, traffic, competitor gap, content health) |
+| Sieve brain integration (API hookup, continuous Valeo page re-audit pipeline, rule-change ingestion from official docs) |
+| Schema drift + validator automation (weekly scan across top 20+ pages) |
+| Content recency triggers (page age, dead-link scan, E-E-A-T signal audit, citation rot detection) |
+| Competitive page-diff + schema-diff + new-page detection + AI Overview trigger tracking |
+| Dashboard iteration + founder/Ritwik feedback loop (W6, W10, W14) |
+| Ongoing alert curation + tuning (~0.5 hrs × 14 weeks) |
+
+**Total: ~95 hrs (with 30% buffer)**
 
 ### Advisor engagement total
 
@@ -264,20 +296,24 @@ Lightweight build (spreadsheet-driven measurement, email alerts, Airtable dashbo
 |---|---|
 | WS1 — Foundation Fix | ~61 |
 | WS2 — Content + E-E-A-T | ~68 |
-| WS3 — Measurement Infra + Intel + Paid Audit | ~126 |
-| **Advisor total (Arun)** | **~255 hrs** |
+| WS3 — Measurement + Intel + Paid Audit | ~140 |
+| WS4 — Always-On Intelligence (Dashboard + Sieve + automation) | ~95 |
+| **Advisor total (Arun)** | **~364 hrs** |
 
-**Weekly load profile** (~21 hrs/week average):
+**Weekly load profile** (~23 hrs/week average over 16 weeks):
 
 | Phase | Weeks | Avg hrs/week |
 |---|---|---|
-| Foundation + intel build | W1-4 | ~25 |
-| Content depth + mid-engagement | W5-8 | ~20 |
-| Content velocity + run ops + close | W9-12 | ~17 |
+| Foundation + dashboard + Sieve integration build | W1-5 | ~26 |
+| Schema + FAQ + automation operational | W6-8 | ~24 |
+| Content depth + first paid audit + deep-dives | W9-11 | ~22 |
+| Content velocity + dashboard refinement | W12-14 | ~21 |
+| Close + re-audit + handover | W15-16 | ~19 |
 
 Notes:
 - Buffer is drawn down only as consumed; unused buffer rolls into Phase 2 scope discussions.
 - If Week 1 baseline reveals materially different starting conditions, estimates are re-baselined before Week 3.
+- WS4 infrastructure is built to outlive the engagement — Ritwik owns it post-W16 with the alert loop continuing to surface content + competitor + rule-change drift.
 - **Deferred to Phase 2** (explicit, scoped separately): brand-aware blog writer pipeline build, Telegram alert infrastructure, Arabic content parity, press outreach at scale, Reddit/Quora.
 
 ---
@@ -287,7 +323,7 @@ Notes:
 Pricing is intentionally deferred to the kickoff discussion. Three structures are possible:
 
 - **Phased fee** — Foundation / Content+Authority / Measurement+Handover, each with a decision gate before the next unlocks
-- **12-week retainer** — single monthly fee × 3 months, all deliverables included
+- **16-week retainer** — single monthly fee × 4 months, all deliverables included
 - **Milestone-based** — payment tied to specific deliverables
 
 Final structure + figures are a conversation, not a quote in this document. **This is a scope draft, not a priced proposal.**
@@ -303,35 +339,38 @@ Final structure + figures are a conversation, not a quote in this document. **Th
 
 ## Decision Gates
 
-### Week 4 gate — foundation complete
+### Week 5 gate — foundation complete
 - New root page live in production
 - Schema depth materially increased at root (specific block count set in Week 1 plan)
 - Technical fixes shipped (HSTS, Cache-Control, `dateModified`)
 - Indexing confirmed in GSC + Bing
 - Medical director Person schema live with credentials
+- Founder Live Dashboard v1 live; Sieve brain integration operational
 
 If foundation is not substantially complete, Workstream 2 pauses and the delay is diagnosed before expansion.
 
-### Week 8 gate — content + authority mid-point
+### Week 10 gate — content + authority mid-point
 - Schema depth live on 15+ pages
 - 40+ FAQ pairs deployed
 - Top 5 city pages upgraded
 - 2 comparison posts shipped (legal-reviewed)
 - First paid ads audit report delivered
+- Sieve-driven drift alerts + schema drift detection operational
 - AI citation rate direction vs Week 1 baseline assessed (direction, not absolute threshold)
 
-If mid-point is materially behind, remaining scope is renegotiated before Weeks 9-10.
+If mid-point is materially behind, remaining scope is renegotiated before Weeks 11-14.
 
-### Week 12 gate — engagement close
-- Measured AI citation rate vs Week 1 baseline (range agreed in Week 1)
+### Week 16 gate — engagement close
+- Measured AI citation rate: **target >10%** across 50-query × 4-engine set (vs Week 1 baseline near 0%)
 - Organic traffic vs Week 1 baseline (range agreed in Week 1)
-- Competitive intel dashboard live + operational
+- Founder Live Dashboard + Sieve re-audit loop fully operational and handed to Ritwik
 - 2 paid ads audit reports delivered
+- Full Sieve re-audit against latest rules completed
 - Q2 scope recommendations documented
 
 Outcome scenarios:
-- **Base case:** core foundation + schema shipped; citation direction positive; traffic gains within conservative range → reasonable success, extend if aligned.
-- **Upside:** full scope shipped; citation gains at higher end of range → strong result, scale engagement.
+- **Base case:** core foundation + schema shipped; AI appearance rate crosses 5-10%; traffic gains within conservative range → reasonable success, extend if aligned.
+- **Upside:** full scope shipped; AI appearance rate >10%; traffic gains at higher end → strong result, scale engagement.
 - **Downside:** foundation slipped or citation direction unclear → honest debrief, diagnose gaps, adjust approach.
 
 ---
@@ -342,9 +381,10 @@ Outcome scenarios:
 2. **Analysis-grounded.** Every fix traces to a specific finding in the April 14 analysis.
 3. **Compliance-native.** Medical review, DHA adherence, YMYL standards, and review-collection TOS are in the workflow, not added after.
 4. **Conditional framing.** Outcomes are target scenarios with explicit dependencies — not commitments.
-5. **Focused scope.** 3 workstreams. Arabic, press at scale, Reddit/Quora explicitly deferred to Phase 2.
+5. **Focused scope.** 4 workstreams. Arabic, press at scale, Reddit/Quora explicitly deferred to Phase 2.
 6. **Paid ads stays with marketing team.** We audit efficiency; we do not duplicate execution.
-7. **Evidence over assertion.** Directional claims labeled as directional. Unmeasured values labeled as unmeasured.
+7. **Compounding infrastructure.** WS4 (dashboard + Sieve integration + drift detection) outlives the engagement — Valeo keeps re-auditing against evolving LLM/SEO rules without continued advisor time.
+8. **Evidence over assertion.** Directional claims labeled as directional. Unmeasured values labeled as unmeasured.
 
 ---
 
@@ -354,7 +394,7 @@ Outcome scenarios:
 2. Discussion call: resource commitment confirmation, pricing structure selection, question resolution
 3. Kickoff week of April 28 (if aligned)
 4. Week 1 Task 1: measure baseline (50 queries × 4 engines) → target ranges locked
-5. First decision gate: Week 4
+5. First decision gate: Week 5
 
 ---
 
